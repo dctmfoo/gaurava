@@ -71,3 +71,5 @@ Build/DocIndex/
 /PRD.md
 /PLAN.md
 *.local.xcconfig
+/AGENTS.local.md
+/CLAUDE.local.md

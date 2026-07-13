@@ -61,3 +61,7 @@ build or test.
 Non-trivial sessions keep a short journal of intent and decisions so work is
 resumable. The standalone pattern is published at
 [dctmfoo/session-journal](https://github.com/dctmfoo/session-journal).
+
+## Maintainer-local rules
+
+If `AGENTS.local.md` exists at the repo root (gitignored, maintainer machine only), read it before starting work and treat its rules as part of this contract. `CLAUDE.local.md` is a symlink to the same file. Never commit either file.

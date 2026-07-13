@@ -332,6 +332,7 @@
 		020BB5CF57476054AC08F55D /* GauravaInjectionActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauravaInjectionActivity.swift; sourceTree = "<group>"; };
 		025C4DA17CA6B386365323F2 /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
 		06481775E4281FA7D4CDD503 /* ShareCardConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCardConfiguration.swift; sourceTree = "<group>"; };
+		067CD6F9A31B7D86ABDC47B1 /* Signing-GauravaWatchWidgets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Signing-GauravaWatchWidgets.xcconfig"; sourceTree = "<group>"; };
 		0692A3C09944E169D2867C2E /* LogCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogCapture.swift; sourceTree = "<group>"; };
 		081932553F1B1321EB5FD0F9 /* JabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JabsView.swift; sourceTree = "<group>"; };
 		08FEA9BA79D6EFACA1158E10 /* UITestTabHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestTabHelpers.swift; sourceTree = "<group>"; };
@@ -417,6 +418,7 @@
 		8F5C05F9A53B248FD1567CD2 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = wrapper.icon; path = AppIcon.icon; sourceTree = "<group>"; };
 		917A058BF764D884C85D62FA /* SeedImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedImporter.swift; sourceTree = "<group>"; };
 		94798B65B811987649F116C1 /* WatchSnapshotPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSnapshotPublisher.swift; sourceTree = "<group>"; };
+		954110A398E9F13BF77984E5 /* Signing-GauravaWatch.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Signing-GauravaWatch.xcconfig"; sourceTree = "<group>"; };
 		983D01A894214807D58213A7 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		99D0F5969D972BD631055A95 /* LiveActivityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityUITests.swift; sourceTree = "<group>"; };
 		9A16769B729B248569FA0D1E /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
@@ -462,6 +464,7 @@
 		E0B6543E97EF1F4DB35E5D3B /* PrivateOwnerSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateOwnerSeed.swift; sourceTree = "<group>"; };
 		E1F8A320404DB4601B27C069 /* HealthKitWeightImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitWeightImporter.swift; sourceTree = "<group>"; };
 		E3C072A725314C472F513184 /* GauravaWatchWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GauravaWatchWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E438B555666B23E80E442BD0 /* Signing-Gaurava.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Signing-Gaurava.xcconfig"; sourceTree = "<group>"; };
 		E7A7C9AAA6BA7DAD918F945B /* seed-tirzepatide.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "seed-tirzepatide.json"; sourceTree = "<group>"; };
 		EA5C4CE9B6F58CB8614B6EB2 /* ThemePaletteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePaletteTests.swift; sourceTree = "<group>"; };
 		EF7C08CD2F82C677EB49D110 /* AppStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyle.swift; sourceTree = "<group>"; };
@@ -471,6 +474,7 @@
 		F312CC3C53F3EDC75612AB3A /* InjectionReminderPlanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectionReminderPlanTests.swift; sourceTree = "<group>"; };
 		F3CB9A7062D808CDFCA8EDB1 /* GauravaBrandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauravaBrandMark.swift; sourceTree = "<group>"; };
 		F548EA7B16F620EA552FEBC5 /* LocalizationSmokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationSmokeUITests.swift; sourceTree = "<group>"; };
+		F5ED27D54B37A6B75DA4086D /* Signing-GauravaWidgets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Signing-GauravaWidgets.xcconfig"; sourceTree = "<group>"; };
 		F7885578E1B57D6E74D234B1 /* InjectionSiteRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectionSiteRotation.swift; sourceTree = "<group>"; };
 		F8B8D1531D1832EEB50A7A72 /* TreatmentMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentMath.swift; sourceTree = "<group>"; };
 		F910D52F3403E7011CEA0F49 /* WatchTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTheme.swift; sourceTree = "<group>"; };
@@ -500,6 +504,7 @@
 		041D7116E0124009AEAA835C = {
 			isa = PBXGroup;
 			children = (
+				9B421B30250EAF97ED9AC642 /* Config */,
 				4C00830950E147F3010BAB9E /* Gaurava */,
 				1DBCBC922F230686567C1632 /* GauravaSurfaceSnapshots */,
 				3A09C3BE540CF8D070F97DE6 /* GauravaTests */,
@@ -787,6 +792,17 @@
 			path = LiveActivity;
 			sourceTree = "<group>";
 		};
+		9B421B30250EAF97ED9AC642 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E438B555666B23E80E442BD0 /* Signing-Gaurava.xcconfig */,
+				954110A398E9F13BF77984E5 /* Signing-GauravaWatch.xcconfig */,
+				067CD6F9A31B7D86ABDC47B1 /* Signing-GauravaWatchWidgets.xcconfig */,
+				F5ED27D54B37A6B75DA4086D /* Signing-GauravaWidgets.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		A566522FD0DCE3D5F920D4DF /* Import */ = {
 			isa = PBXGroup;
 			children = (
@@ -1049,19 +1065,7 @@
 					18C877F694AC18640CEE6B23 = {
 						DevelopmentTeam = "";
 					};
-					9A59DB920B7A4C7072AF8953 = {
-						DevelopmentTeam = "";
-					};
 					AB661B62D9D8FE73235205B7 = {
-						DevelopmentTeam = "";
-					};
-					B3B7A86C2F9F60F2983AECC7 = {
-						DevelopmentTeam = "";
-					};
-					BC2DCA6030FD7F6EF2390755 = {
-						DevelopmentTeam = "";
-					};
-					CAA3299E38BD3F24449C393F = {
 						DevelopmentTeam = "";
 					};
 				};
@@ -1593,12 +1597,12 @@
 		};
 		0FD6D9E8F98053E429DC9222 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5ED27D54B37A6B75DA4086D /* Signing-GauravaWidgets.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = GauravaWidgets/GauravaWidgets.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 59;
-				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = GauravaWidgets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1793,13 +1797,13 @@
 		};
 		8BA67A79E3619D07E491B2F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E438B555666B23E80E442BD0 /* Signing-Gaurava.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Gaurava/Gaurava.Release.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 59;
-				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Gaurava/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1821,13 +1825,13 @@
 		};
 		8CC6264546EBC4190EE3C07C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954110A398E9F13BF77984E5 /* Signing-GauravaWatch.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GauravaWatch/GauravaWatch.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 59;
-				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = GauravaWatch/Info.plist;
 				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
@@ -1935,12 +1939,12 @@
 		};
 		AB7C83534D6E32AB32393B70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 067CD6F9A31B7D86ABDC47B1 /* Signing-GauravaWatchWidgets.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = GauravaWatchWidgets/GauravaWatchWidgets.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 59;
-				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = GauravaWatchWidgets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

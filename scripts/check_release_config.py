@@ -77,6 +77,10 @@ def load_plist(relative: str) -> dict:
 
 
 def assert_equal(label: str, actual: str, expected: str) -> None:
+    # An empty expected value is "not pinned in the public tree": the real
+    # value is maintainer-local (Makefile.local) and only the caller has it.
+    if expected == "":
+        return
     if actual != expected:
         fail(f"{label} expected {expected!r}, got {actual!r}")
 
@@ -98,13 +102,16 @@ def check_project(args: argparse.Namespace) -> None:
     project = (ROOT / "project.yml").read_text(encoding="utf-8")
     for target, contract in TARGET_CONTRACTS.items():
         block = target_block(project, target)
+        # Maintainer-local Release signing values (team ID, profile name/UUID)
+        # live in gitignored Config/Signing-<Target>.local.xcconfig overlays,
+        # pulled in via the tracked per-target xcconfig stubs. The tracked
+        # project.yml must wire the stub; the values themselves are enforced
+        # against the installed profiles below (check_profiles).
         required = (
             f"PRODUCT_BUNDLE_IDENTIFIER: {getattr(args, contract['bundle'])}",
-            f"DEVELOPMENT_TEAM: {args.team}",
+            f"Release: Config/Signing-{target}.xcconfig",
             "Release:",
             "CODE_SIGN_STYLE: Manual",
-            f"PROVISIONING_PROFILE_SPECIFIER: {contract['profile_name']}",
-            f"PROVISIONING_PROFILE: {getattr(args, contract['profile_uuid'])}",
             contract["entitlements"],
             *contract["extra"],
         )

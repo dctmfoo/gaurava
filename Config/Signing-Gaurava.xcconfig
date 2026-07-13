@@ -1,0 +1,4 @@
+// Maintainer-local Release signing values (team ID, provisioning profile)
+// live in the gitignored Signing-Gaurava.local.xcconfig. Forks build without
+// one: simulator lanes need no signing; the include below is optional.
+#include? "Signing-Gaurava.local.xcconfig"

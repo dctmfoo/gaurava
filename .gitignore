@@ -70,3 +70,4 @@ Build/DocIndex/
 /ASC.md
 /PRD.md
 /PLAN.md
+*.local.xcconfig

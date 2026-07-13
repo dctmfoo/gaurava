@@ -169,8 +169,12 @@ def check_profiles(args: argparse.Namespace) -> None:
             fail(f"{key} is expired or has no valid ExpirationDate")
         entitlements = profile.get("Entitlements") or {}
         bundle_id = getattr(args, bundle_key)
-        assert_equal(f"{key} application identifier", entitlements.get("application-identifier", ""), f"{TEAM}.{bundle_id}")
-        assert_equal(f"{key} team identifier", entitlements.get("com.apple.developer.team-identifier", ""), TEAM)
+        # Team comes from the caller (Makefile.local); TEAM env is unset in the
+        # public tree. Guard so an empty team never degrades these checks.
+        team = args.team or TEAM
+        if team:
+            assert_equal(f"{key} application identifier", entitlements.get("application-identifier", ""), f"{team}.{bundle_id}")
+            assert_equal(f"{key} team identifier", entitlements.get("com.apple.developer.team-identifier", ""), team)
         if entitlements.get("get-task-allow") is not False:
             fail(f"{key} is not an App Store distribution profile")
         if APP_GROUP not in entitlements.get("com.apple.security.application-groups", []):

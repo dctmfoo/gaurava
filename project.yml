@@ -54,8 +54,8 @@ targets:
         TARGETED_DEVICE_FAMILY: "1,2"
         PRODUCT_BUNDLE_IDENTIFIER: com.nags.gaurava
         PRODUCT_NAME: Gaurava
-        CURRENT_PROJECT_VERSION: 59
-        MARKETING_VERSION: "1.1"
+        CURRENT_PROJECT_VERSION: 60
+        MARKETING_VERSION: "1.2"
         GENERATE_INFOPLIST_FILE: NO
         INFOPLIST_FILE: Gaurava/Info.plist
         CODE_SIGN_ENTITLEMENTS: Gaurava/Gaurava.entitlements
@@ -142,8 +142,8 @@ targets:
         TARGETED_DEVICE_FAMILY: "1,2"
         PRODUCT_BUNDLE_IDENTIFIER: com.nags.gaurava.GauravaWidgets
         PRODUCT_NAME: GauravaWidgets
-        CURRENT_PROJECT_VERSION: 59
-        MARKETING_VERSION: "1.1"
+        CURRENT_PROJECT_VERSION: 60
+        MARKETING_VERSION: "1.2"
         GENERATE_INFOPLIST_FILE: NO
         INFOPLIST_FILE: GauravaWidgets/Info.plist
         CODE_SIGN_ENTITLEMENTS: GauravaWidgets/GauravaWidgets.entitlements
@@ -214,8 +214,8 @@ targets:
         TARGETED_DEVICE_FAMILY: "4"
         PRODUCT_BUNDLE_IDENTIFIER: com.nags.gaurava.watchkitapp
         PRODUCT_NAME: Gaurava
-        CURRENT_PROJECT_VERSION: 59
-        MARKETING_VERSION: "1.1"
+        CURRENT_PROJECT_VERSION: 60
+        MARKETING_VERSION: "1.2"
         GENERATE_INFOPLIST_FILE: NO
         INFOPLIST_FILE: GauravaWatch/Info.plist
         CODE_SIGN_ENTITLEMENTS: GauravaWatch/GauravaWatch.entitlements
@@ -270,8 +270,8 @@ targets:
         TARGETED_DEVICE_FAMILY: "4"
         PRODUCT_BUNDLE_IDENTIFIER: com.nags.gaurava.watchkitapp.GauravaWatchWidgets
         PRODUCT_NAME: GauravaWatchWidgets
-        CURRENT_PROJECT_VERSION: 59
-        MARKETING_VERSION: "1.1"
+        CURRENT_PROJECT_VERSION: 60
+        MARKETING_VERSION: "1.2"
         GENERATE_INFOPLIST_FILE: NO
         INFOPLIST_FILE: GauravaWatchWidgets/Info.plist
         CODE_SIGN_ENTITLEMENTS: GauravaWatchWidgets/GauravaWatchWidgets.entitlements

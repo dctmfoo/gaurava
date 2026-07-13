@@ -1576,12 +1576,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GauravaWatch/GauravaWatch.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 59;
+				CURRENT_PROJECT_VERSION = 60;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = GauravaWatch/Info.plist;
 				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava.watchkitapp;
 				PRODUCT_NAME = Gaurava;
 				SDKROOT = watchos;
@@ -1602,7 +1602,7 @@
 				CODE_SIGN_ENTITLEMENTS = GauravaWidgets/GauravaWidgets.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 59;
+				CURRENT_PROJECT_VERSION = 60;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = GauravaWidgets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1611,7 +1611,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava.GauravaWidgets;
 				PRODUCT_NAME = GauravaWidgets;
 				SDKROOT = iphoneos;
@@ -1649,7 +1649,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = GauravaWatchWidgets/GauravaWatchWidgets.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 59;
+				CURRENT_PROJECT_VERSION = 60;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = GauravaWatchWidgets/Info.plist;
@@ -1659,7 +1659,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava.watchkitapp.GauravaWatchWidgets;
 				PRODUCT_NAME = GauravaWatchWidgets;
 				SDKROOT = watchos;
@@ -1680,7 +1680,7 @@
 				CODE_SIGN_ENTITLEMENTS = Gaurava/Gaurava.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 59;
+				CURRENT_PROJECT_VERSION = 60;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Gaurava/Info.plist;
@@ -1689,7 +1689,7 @@
 					"@executable_path/Frameworks",
 				);
 				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava;
 				PRODUCT_NAME = Gaurava;
 				SDKROOT = iphoneos;
@@ -1706,7 +1706,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = GauravaWidgets/GauravaWidgets.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 59;
+				CURRENT_PROJECT_VERSION = 60;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = GauravaWidgets/Info.plist;
@@ -1716,7 +1716,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava.GauravaWidgets;
 				PRODUCT_NAME = GauravaWidgets;
 				SDKROOT = iphoneos;
@@ -1803,7 +1803,7 @@
 				CODE_SIGN_ENTITLEMENTS = Gaurava/Gaurava.Release.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 59;
+				CURRENT_PROJECT_VERSION = 60;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Gaurava/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1811,7 +1811,7 @@
 					"@executable_path/Frameworks",
 				);
 				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava;
 				PRODUCT_NAME = Gaurava;
 				SDKROOT = iphoneos;
@@ -1831,11 +1831,11 @@
 				CODE_SIGN_ENTITLEMENTS = GauravaWatch/GauravaWatch.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 59;
+				CURRENT_PROJECT_VERSION = 60;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = GauravaWatch/Info.plist;
 				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava.watchkitapp;
 				PRODUCT_NAME = Gaurava;
 				SDKROOT = watchos;
@@ -1944,7 +1944,7 @@
 				CODE_SIGN_ENTITLEMENTS = GauravaWatchWidgets/GauravaWatchWidgets.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 59;
+				CURRENT_PROJECT_VERSION = 60;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = GauravaWatchWidgets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1953,7 +1953,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava.watchkitapp.GauravaWatchWidgets;
 				PRODUCT_NAME = GauravaWatchWidgets;
 				SDKROOT = watchos;

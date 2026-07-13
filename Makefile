@@ -1,3 +1,8 @@
+# Maintainer-specific signing values (team ID, provisioning profile UUIDs, ASC
+# identifiers) live in an untracked Makefile.local — see README "Build it
+# yourself". Forks don't need one: simulator lanes require no signing.
+-include Makefile.local
+
 APP_NAME := Gaurava
 APP_PROJECT := Gaurava.xcodeproj
 APP_WORKSPACE := Gaurava.xcworkspace
@@ -13,7 +18,7 @@ SIM_NAME ?= auto
 TARGET_PREFIX :=
 SCRIPTS_DIR := ./scripts
 ASC_APP_ID ?= 6775155354
-ASC_TESTFLIGHT_GROUP ?= 8a379ef0-71cb-4b01-bea1-e271cf518c16
+ASC_TESTFLIGHT_GROUP ?=
 APPLE_TEAM_ID ?=
 APP_BUNDLE_ID ?= com.nags.gaurava
 TESTFLIGHT_INTERNAL_TESTING_ONLY ?= false
@@ -28,8 +33,6 @@ WIDGET_RELEASE_PROFILE_SPECIFIER ?= Gaurava Widgets App Store
 # (group.com.nags.gaurava) enabled and assigned, and the distribution profiles
 # below carry that entitlement; `make testflight` maps both bundle IDs in the
 # export options (the watch app ships embedded in the iOS archive).
-#   com.nags.gaurava.watchkitapp                       (App ID 9Y9GPXFZ22)
-#   com.nags.gaurava.watchkitapp.GauravaWatchWidgets   (App ID 7YF9SKT4Y6)
 WATCH_BUNDLE_ID ?= com.nags.gaurava.watchkitapp
 WATCH_WIDGET_BUNDLE_ID ?= com.nags.gaurava.watchkitapp.GauravaWatchWidgets
 WATCH_RELEASE_PROFILE_UUID ?=
@@ -42,8 +45,8 @@ ONBOARDING_SANDBOX_BUNDLE_ID ?= com.nags.gaurava.onboarding
 ONBOARDING_SANDBOX_DEVICE_FILTER ?= iPhone
 # Optional App Store Connect API key for headless device signing. Leave
 # ASC_KEY_PATH empty to sign via the Xcode-account (-allowProvisioningUpdates).
-ASC_KEY_ID ?= S6AHM3S48K
-ASC_ISSUER_ID ?= 6aa2c530-187a-41b6-a6da-1aa81974d90b
+ASC_KEY_ID ?=
+ASC_ISSUER_ID ?=
 ASC_KEY_PATH ?=
 IOS_ARCHIVE_PATH ?= build/Gaurava.xcarchive
 IOS_EXPORT_PATH ?= build/export

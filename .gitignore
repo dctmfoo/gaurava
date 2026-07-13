@@ -3,6 +3,11 @@
 .env.*
 !.env.example
 
+# Maintainer-specific signing + ASC values (team ID, profile UUIDs). Never
+# tracked — forks create their own if they use the device/TestFlight lanes.
+Makefile.local
+private/
+
 build/
 DerivedData/
 *.ipa

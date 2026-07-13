@@ -84,9 +84,19 @@ The repo ships a generated `Gaurava.xcodeproj`. If you change `project.yml`,
 regenerate it with `xcodegen generate`.
 
 Simulator builds require no code signing. **Signing is intentionally unset** in
-this snapshot — to run on a physical device or archive, set your own team via
-`APPLE_TEAM_ID=YOURTEAMID` (or set `DEVELOPMENT_TEAM` in `project.yml` and
-regenerate). Run `make` with no target to print the full list of commands.
+the tracked files — to run on a physical device or archive, put your values in
+an untracked `Makefile.local` at the repo root (picked up automatically,
+gitignored — never committed):
+
+```make
+APPLE_TEAM_ID := XXXXXXXXXX      # your Apple Developer Team ID
+```
+
+One-off env vars work too (`APPLE_TEAM_ID=YOURTEAMID make ...`), or set
+`DEVELOPMENT_TEAM` in `project.yml` and regenerate. The TestFlight/App Store
+lanes additionally expect the maintainer's provisioning-profile UUIDs and App
+Store Connect IDs in `Makefile.local` — forks distributing their own build
+supply their own. Run `make` with no target to print the full list of commands.
 
 ## Agent governance
 

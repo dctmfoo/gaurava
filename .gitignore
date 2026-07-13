@@ -73,3 +73,5 @@ Build/DocIndex/
 *.local.xcconfig
 /AGENTS.local.md
 /CLAUDE.local.md
+# Session journals are maintainer-local (see AGENTS.local.md journal discipline)
+sessions/

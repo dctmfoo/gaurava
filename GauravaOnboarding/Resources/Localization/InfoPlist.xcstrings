@@ -1,0 +1,66 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "CFBundleDisplayName": {
+      "comment": "Onboarding sandbox display name. Product name stays in English script; Sandbox distinguishes the reset-only local handoff build.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava Sandbox"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava Sandbox"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava Sandbox"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava Sandbox"
+          }
+        }
+      }
+    },
+    "NSPhotoLibraryAddUsageDescription": {
+      "comment": "Photos permission prompt for the onboarding sandbox target when the user asks to save journey cards.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava Sandbox saves journey cards to your Photos library when you ask."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "जब आप कहेंगे, Gaurava Sandbox यात्रा कार्डों को आपकी Photos लाइब्रेरी में सहेज लेगा।"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "நீங்கள் கேட்கும்போது Gaurava Sandbox பயண அட்டைகளை உங்கள் Photos நூலகத்தில் சேமிக்கும்."
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "మీరు కోరినప్పుడు Gaurava Sandbox ప్రయాణ కార్డ్‌లను మీ Photos లైబ్రరీకి సేవ్ చేస్తుంది."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

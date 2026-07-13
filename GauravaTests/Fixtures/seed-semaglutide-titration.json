@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "sourceProduct": "verification-seed",
+    "targetProduct": "gaurava-ios",
+    "subjectEmail": "semaglutide@example.com",
+    "exportedAt": "2026-06-04T00:00:00.000Z",
+    "version": "semaglutide-titration-1"
+  },
+  "account": {
+    "id": "user-semaglutide",
+    "email": "semaglutide@example.com"
+  },
+  "data": {
+    "profiles": [
+      {
+        "id": "profile-semaglutide",
+        "user_id": "user-semaglutide",
+        "age": 41,
+        "gender": "prefer_not_to_say",
+        "height_cm": "178.0",
+        "starting_weight_kg": "98.0",
+        "goal_weight_kg": "82.0",
+        "treatment_start_date": "2026-01-01",
+        "medication": "semaglutide",
+        "planned_dose_mg": "7.2",
+        "planned_dose_updated_at": "2026-02-12T09:00:00.000Z",
+        "preferred_injection_day": 5,
+        "reminder_days_before": 1,
+        "created_at": "2026-01-01T09:00:00.000Z",
+        "updated_at": "2026-02-12T09:00:00.000Z"
+      }
+    ],
+    "userPreferences": [
+      {
+        "id": "preferences-semaglutide",
+        "user_id": "user-semaglutide",
+        "weight_unit": "kg",
+        "height_unit": "cm",
+        "date_format": "DD/MM/YYYY",
+        "week_starts_on": 1,
+        "theme": "system",
+        "created_at": "2026-01-01T09:00:00.000Z",
+        "updated_at": "2026-02-12T09:00:00.000Z"
+      }
+    ],
+    "weightEntries": [
+      {
+        "id": "weight-semaglutide-start",
+        "user_id": "user-semaglutide",
+        "weight_kg": "98.0",
+        "recorded_at": "2026-01-01T07:30:00.000Z",
+        "time_zone_identifier": "Asia/Kolkata",
+        "client_mutation_id": "client-weight-semaglutide-start"
+      },
+      {
+        "id": "weight-semaglutide-current",
+        "user_id": "user-semaglutide",
+        "weight_kg": "92.4",
+        "recorded_at": "2026-02-12T07:30:00.000Z",
+        "time_zone_identifier": "Asia/Kolkata",
+        "client_mutation_id": "client-weight-semaglutide-current"
+      }
+    ],
+    "injections": [
+      {
+        "id": "injection-semaglutide-025",
+        "user_id": "user-semaglutide",
+        "dose_mg": "0.25",
+        "injection_site": "Abdomen - Left",
+        "injection_date": "2026-01-01T09:00:00.000Z",
+        "time_zone_identifier": "Asia/Kolkata",
+        "client_mutation_id": "client-injection-semaglutide-025"
+      },
+      {
+        "id": "injection-semaglutide-05",
+        "user_id": "user-semaglutide",
+        "dose_mg": "0.5",
+        "injection_site": "Abdomen - Right",
+        "injection_date": "2026-01-08T09:00:00.000Z",
+        "time_zone_identifier": "Asia/Kolkata",
+        "client_mutation_id": "client-injection-semaglutide-05"
+      },
+      {
+        "id": "injection-semaglutide-1",
+        "user_id": "user-semaglutide",
+        "dose_mg": "1",
+        "injection_site": "Thigh - Left",
+        "injection_date": "2026-01-15T09:00:00.000Z",
+        "time_zone_identifier": "Asia/Kolkata",
+        "client_mutation_id": "client-injection-semaglutide-1"
+      },
+      {
+        "id": "injection-semaglutide-17",
+        "user_id": "user-semaglutide",
+        "dose_mg": "1.7",
+        "injection_site": "Thigh - Right",
+        "injection_date": "2026-01-22T09:00:00.000Z",
+        "time_zone_identifier": "Asia/Kolkata",
+        "client_mutation_id": "client-injection-semaglutide-17"
+      },
+      {
+        "id": "injection-semaglutide-2",
+        "user_id": "user-semaglutide",
+        "dose_mg": "2",
+        "injection_site": "Upper Arm - Left",
+        "injection_date": "2026-01-29T09:00:00.000Z",
+        "time_zone_identifier": "Asia/Kolkata",
+        "client_mutation_id": "client-injection-semaglutide-2"
+      },
+      {
+        "id": "injection-semaglutide-24",
+        "user_id": "user-semaglutide",
+        "dose_mg": "2.4",
+        "injection_site": "Upper Arm - Right",
+        "injection_date": "2026-02-05T09:00:00.000Z",
+        "time_zone_identifier": "Asia/Kolkata",
+        "client_mutation_id": "client-injection-semaglutide-24"
+      },
+      {
+        "id": "injection-semaglutide-72",
+        "user_id": "user-semaglutide",
+        "dose_mg": "7.2",
+        "injection_site": "Abdomen - Left",
+        "injection_date": "2026-02-12T09:00:00.000Z",
+        "time_zone_identifier": "Asia/Kolkata",
+        "client_mutation_id": "client-injection-semaglutide-72"
+      }
+    ],
+    "sideEffects": [
+      {
+        "id": "side-effect-semaglutide-nausea",
+        "log_date": "2026-01-02",
+        "symptom": "nausea",
+        "severity": "mild",
+        "source": "app",
+        "time_zone_identifier": "Asia/Kolkata",
+        "client_mutation_id": "client-side-effect-semaglutide-nausea"
+      },
+      {
+        "id": "side-effect-semaglutide-constipation",
+        "log_date": "2026-01-23",
+        "symptom": "constipation",
+        "severity": "moderate",
+        "source": "app",
+        "time_zone_identifier": "Asia/Kolkata",
+        "client_mutation_id": "client-side-effect-semaglutide-constipation"
+      }
+    ],
+    "checkIns": [
+      {
+        "id": "check-in-semaglutide-good",
+        "log_date": "2026-01-02",
+        "mood_valence": "good",
+        "all_clear": false,
+        "note": "Mild nausea, settled by evening.",
+        "source": "app",
+        "time_zone_identifier": "Asia/Kolkata",
+        "client_mutation_id": "client-check-in-semaglutide-good"
+      },
+      {
+        "id": "check-in-semaglutide-clear",
+        "log_date": "2026-02-12",
+        "mood_valence": "great",
+        "all_clear": true,
+        "source": "app",
+        "time_zone_identifier": "Asia/Kolkata",
+        "client_mutation_id": "client-check-in-semaglutide-clear"
+      }
+    ]
+  }
+}

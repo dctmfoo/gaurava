@@ -1,0 +1,29 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'./.codex/hooks/session-journal-pointer.sh'"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "'./.codex/hooks/session-journal-nudge.sh'"
+          },
+          {
+            "type": "command",
+            "command": "'./.codex/hooks/commit-stragglers-nudge.sh'"
+          }
+        ]
+      }
+    ]
+  }
+}

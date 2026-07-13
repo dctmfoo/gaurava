@@ -1,0 +1,430 @@
+name: Gaurava
+options:
+  bundleIdPrefix: com.nags
+  developmentLanguage: en
+  useBaseInternationalization: false
+  deploymentTarget:
+    iOS: "26.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    IPHONEOS_DEPLOYMENT_TARGET: "26.0"
+    SDKROOT: iphoneos
+    SUPPORTED_PLATFORMS: "iphoneos iphonesimulator"
+    SUPPORTS_MACCATALYST: NO
+    TARGETED_DEVICE_FAMILY: "1,2"
+    LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+targets:
+  Gaurava:
+    type: application
+    platform: iOS
+    sources:
+      - path: Gaurava
+        excludes:
+          - "AppIcon.icon"
+          - "AppIcon.icon/**"
+          - "Info.OnboardingSandbox.plist"
+          - "Resources/Localization/**"
+      # Liquid Glass app icon (Xcode 26). Added as a single file so XcodeGen does
+      # not recurse into the .icon package and scatter its layers as resources.
+      - path: Gaurava/AppIcon.icon
+        type: file
+      - path: Gaurava/Resources/Localization/Localizable.xcstrings
+        type: file
+      - path: Gaurava/Resources/Localization/InfoPlist.xcstrings
+        type: file
+    dependencies:
+      - target: GauravaWidgets
+        embed: true
+      # Embed the watchOS app in the iOS app so the archive carries the watch app
+      # and (transitively) its widget extension. XcodeGen routes a
+      # platform: watchOS application dependency to the "Embed Watch Content"
+      # phase; building the iOS scheme therefore compiles + embeds the watch
+      # targets too. (Use platform: watchOS, NOT supportedDestinations —
+      # XcodeGen issue #1463: supportedDestinations omits the embed phase.)
+      - target: GauravaWatch
+        embed: true
+    settings:
+      base:
+        SDKROOT: iphoneos
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator"
+        SUPPORTS_MACCATALYST: NO
+        TARGETED_DEVICE_FAMILY: "1,2"
+        PRODUCT_BUNDLE_IDENTIFIER: com.nags.gaurava
+        PRODUCT_NAME: Gaurava
+        CURRENT_PROJECT_VERSION: 59
+        MARKETING_VERSION: "1.1"
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: Gaurava/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Gaurava/Gaurava.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        SWIFT_EMIT_LOC_STRINGS: YES
+        STRING_CATALOG_GENERATE_SYMBOLS: YES
+        LOCALIZED_STRING_SWIFTUI_SUPPORT: YES
+      configs:
+        Debug:
+          CODE_SIGN_STYLE: Automatic
+          DEVELOPMENT_TEAM: ""
+        Release:
+          CODE_SIGN_STYLE: Manual
+          DEVELOPMENT_TEAM: ""
+          CODE_SIGN_IDENTITY: Apple Distribution
+          # Release uses production aps-environment (App Store / production CloudKit).
+          CODE_SIGN_ENTITLEMENTS: Gaurava/Gaurava.Release.entitlements
+  # Temporary side-by-side target for physical-device onboarding checks.
+  # It deliberately has a different bundle ID, no widget/watch embedding, no
+  # App Group entitlement, and no CloudKit entitlement. The compile condition
+  # makes SwiftData local-only so this build cannot touch the real Gaurava
+  # app container, private CloudKit database, widget App Group, or watch mirror.
+  GauravaOnboarding:
+    type: application
+    platform: iOS
+    sources:
+      - path: Gaurava
+        excludes:
+          - "AppIcon.icon"
+          - "AppIcon.icon/**"
+          - "Info.plist"
+          - "Resources/Localization/**"
+      - path: Gaurava/AppIcon.icon
+        type: file
+      - path: Gaurava/Resources/Localization/Localizable.xcstrings
+        type: file
+      - path: GauravaOnboarding/Resources/Localization/InfoPlist.xcstrings
+        type: file
+    settings:
+      base:
+        SDKROOT: iphoneos
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator"
+        SUPPORTS_MACCATALYST: NO
+        TARGETED_DEVICE_FAMILY: "1,2"
+        PRODUCT_BUNDLE_IDENTIFIER: com.nags.gaurava.onboarding
+        PRODUCT_NAME: GauravaOnboarding
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: "1.0"
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: Gaurava/Info.OnboardingSandbox.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) GAURAVA_ONBOARDING_SANDBOX"
+        SWIFT_EMIT_LOC_STRINGS: YES
+        STRING_CATALOG_GENERATE_SYMBOLS: YES
+        LOCALIZED_STRING_SWIFTUI_SUPPORT: YES
+      configs:
+        Debug:
+          CODE_SIGN_STYLE: Automatic
+          DEVELOPMENT_TEAM: ""
+  GauravaWidgets:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: GauravaWidgets
+        # Exclude all of Resources (it holds only Localization, whose xcstrings
+        # are re-added as type:file below). Excluding just
+        # Resources/Localization/** leaves an empty Resources group that
+        # XcodeGen re-stamps with a random TEMP_ UUID every generate (pbxproj
+        # churn). Keep this as the whole dir unless Resources gains other files.
+        excludes:
+          - "Resources"
+      - Gaurava/SharedSurfaces
+      - Gaurava/AppIntents         # App Intents used by the widget + controls (Build 3); must build into both targets
+      - path: GauravaWidgets/Resources/Localization/Localizable.xcstrings
+        type: file
+      - path: GauravaWidgets/Resources/Localization/InfoPlist.xcstrings
+        type: file
+    settings:
+      base:
+        SDKROOT: iphoneos
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator"
+        SUPPORTS_MACCATALYST: NO
+        TARGETED_DEVICE_FAMILY: "1,2"
+        PRODUCT_BUNDLE_IDENTIFIER: com.nags.gaurava.GauravaWidgets
+        PRODUCT_NAME: GauravaWidgets
+        CURRENT_PROJECT_VERSION: 59
+        MARKETING_VERSION: "1.1"
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: GauravaWidgets/Info.plist
+        CODE_SIGN_ENTITLEMENTS: GauravaWidgets/GauravaWidgets.entitlements
+        SKIP_INSTALL: YES
+        SWIFT_EMIT_LOC_STRINGS: YES
+        STRING_CATALOG_GENERATE_SYMBOLS: YES
+        LOCALIZED_STRING_SWIFTUI_SUPPORT: YES
+      configs:
+        Debug:
+          CODE_SIGN_STYLE: Automatic
+          DEVELOPMENT_TEAM: ""
+        Release:
+          CODE_SIGN_STYLE: Manual
+          DEVELOPMENT_TEAM: ""
+          CODE_SIGN_IDENTITY: Apple Distribution
+  # watchOS companion app (Phase 0 shell). Single-target SwiftUI watch app:
+  # Info.plist carries WKApplication + WKCompanionAppBundleIdentifier (TN3157).
+  # No iCloud/Push — WatchConnectivity (Phase 1) needs neither; App Groups only.
+  GauravaWatch:
+    type: application
+    platform: watchOS
+    deploymentTarget: "26.0"
+    sources:
+      - path: GauravaWatch
+        # See GauravaWidgets note: exclude all of Resources (Localization-only)
+        # so XcodeGen does not leave an empty Resources group that churns its
+        # TEMP_ UUID on every generate. The xcstrings are re-added as type:file.
+        excludes:
+          - "Resources"
+      # Cherry-picked import-clean shared files (Foundation-only). NOT the whole
+      # Gaurava/SharedSurfaces dir: it includes GauravaInjectionActivity.swift,
+      # which imports ActivityKit (iOS/iPadOS/Mac Catalyst only — not watchOS).
+      - path: Gaurava/SharedSurfaces/GauravaGlanceSnapshot.swift
+        type: file
+      - path: Gaurava/SharedSurfaces/GauravaSurface.swift
+        type: file
+      - path: Gaurava/SharedSurfaces/SurfaceSnapshotStore.swift
+        type: file
+      - path: Gaurava/SharedSurfaces/GlanceDisplayModel.swift
+        type: file
+      - path: Gaurava/SharedSurfaces/SharedThemeTokens.swift
+        type: file
+      # Watch app icon: reuse the SAME Liquid Glass icon as the iOS app — one brand
+      # source for both, nothing to keep in sync. icon.json already declares
+      # watchOS support (supported-platforms.circles:[watchOS]); added as a single
+      # file (like the iOS target) so XcodeGen does not recurse into the .icon
+      # package. The embedded watch app MUST carry its own app icon or App Store
+      # Connect ingest rejects the build (ITMS-90713 = missing CFBundleIconName,
+      # ITMS-90391 = no watch app icon; local archive/export does NOT validate
+      # this). actool compiles the watch-circle icon into Assets.car;
+      # ASSETCATALOG_COMPILER_APPICON_NAME + an explicit CFBundleIconName=AppIcon
+      # in GauravaWatch/Info.plist complete it (verified VALID on TestFlight).
+      - path: Gaurava/AppIcon.icon
+        type: file
+      - path: GauravaWatch/Resources/Localization/Localizable.xcstrings
+        type: file
+      - path: GauravaWatch/Resources/Localization/InfoPlist.xcstrings
+        type: file
+    dependencies:
+      - target: GauravaWatchWidgets
+        embed: true
+    settings:
+      base:
+        SDKROOT: watchos
+        SUPPORTED_PLATFORMS: "watchos watchsimulator"
+        SUPPORTS_MACCATALYST: NO
+        TARGETED_DEVICE_FAMILY: "4"
+        PRODUCT_BUNDLE_IDENTIFIER: com.nags.gaurava.watchkitapp
+        PRODUCT_NAME: Gaurava
+        CURRENT_PROJECT_VERSION: 59
+        MARKETING_VERSION: "1.1"
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: GauravaWatch/Info.plist
+        CODE_SIGN_ENTITLEMENTS: GauravaWatch/GauravaWatch.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        SWIFT_EMIT_LOC_STRINGS: YES
+        STRING_CATALOG_GENERATE_SYMBOLS: YES
+        LOCALIZED_STRING_SWIFTUI_SUPPORT: YES
+      configs:
+        Debug:
+          CODE_SIGN_STYLE: Automatic
+          DEVELOPMENT_TEAM: ""
+        Release:
+          CODE_SIGN_STYLE: Manual
+          DEVELOPMENT_TEAM: ""
+          CODE_SIGN_IDENTITY: Apple Distribution
+  # watchOS widget (complication) extension (Phase 0 placeholder bundle).
+  GauravaWatchWidgets:
+    type: app-extension
+    platform: watchOS
+    deploymentTarget: "26.0"
+    sources:
+      - path: GauravaWatchWidgets
+        # See GauravaWidgets note: exclude all of Resources (Localization-only)
+        # so XcodeGen does not leave an empty Resources group that churns its
+        # TEMP_ UUID on every generate. The xcstrings are re-added as type:file.
+        excludes:
+          - "Resources"
+      # WatchTheme tokens (shared with the watch app) + the same cherry-picked
+      # import-clean shared files the watch app uses.
+      - path: GauravaWatch/WatchTheme.swift
+        type: file
+      - path: Gaurava/SharedSurfaces/GauravaGlanceSnapshot.swift
+        type: file
+      - path: Gaurava/SharedSurfaces/GauravaSurface.swift
+        type: file
+      - path: Gaurava/SharedSurfaces/SurfaceSnapshotStore.swift
+        type: file
+      - path: Gaurava/SharedSurfaces/GlanceDisplayModel.swift
+        type: file
+      - path: Gaurava/SharedSurfaces/SharedThemeTokens.swift
+        type: file
+      - path: GauravaWatchWidgets/Resources/Localization/Localizable.xcstrings
+        type: file
+      - path: GauravaWatchWidgets/Resources/Localization/InfoPlist.xcstrings
+        type: file
+    settings:
+      base:
+        SDKROOT: watchos
+        SUPPORTED_PLATFORMS: "watchos watchsimulator"
+        SUPPORTS_MACCATALYST: NO
+        TARGETED_DEVICE_FAMILY: "4"
+        PRODUCT_BUNDLE_IDENTIFIER: com.nags.gaurava.watchkitapp.GauravaWatchWidgets
+        PRODUCT_NAME: GauravaWatchWidgets
+        CURRENT_PROJECT_VERSION: 59
+        MARKETING_VERSION: "1.1"
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: GauravaWatchWidgets/Info.plist
+        CODE_SIGN_ENTITLEMENTS: GauravaWatchWidgets/GauravaWatchWidgets.entitlements
+        SKIP_INSTALL: YES
+        SWIFT_EMIT_LOC_STRINGS: YES
+        STRING_CATALOG_GENERATE_SYMBOLS: YES
+        LOCALIZED_STRING_SWIFTUI_SUPPORT: YES
+      configs:
+        Debug:
+          CODE_SIGN_STYLE: Automatic
+          DEVELOPMENT_TEAM: ""
+        Release:
+          CODE_SIGN_STYLE: Manual
+          DEVELOPMENT_TEAM: ""
+          CODE_SIGN_IDENTITY: Apple Distribution
+  GauravaTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - GauravaTests
+    dependencies:
+      - target: Gaurava
+    settings:
+      base:
+        SDKROOT: iphoneos
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator"
+        SUPPORTS_MACCATALYST: NO
+        TARGETED_DEVICE_FAMILY: "1,2"
+        PRODUCT_BUNDLE_IDENTIFIER: com.nags.gaurava.tests
+        GENERATE_INFOPLIST_FILE: YES
+      configs:
+        Debug:
+          DEVELOPMENT_TEAM: ""
+        Release:
+          DEVELOPMENT_TEAM: ""
+  GauravaUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - GauravaUITests
+    dependencies:
+      - target: Gaurava
+    settings:
+      base:
+        SDKROOT: iphoneos
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator"
+        SUPPORTS_MACCATALYST: NO
+        TARGETED_DEVICE_FAMILY: "1,2"
+        PRODUCT_BUNDLE_IDENTIFIER: com.nags.gaurava.uitests
+        GENERATE_INFOPLIST_FILE: YES
+      configs:
+        Debug:
+          DEVELOPMENT_TEAM: ""
+        Release:
+          DEVELOPMENT_TEAM: ""
+  # Marketing-only: renders the REAL widget + watch glance views via ImageRenderer
+  # for the App Store ecosystem slide. Self-contained (compiles the shared glance
+  # model + widget/watch view sources directly; NO @testable import Gaurava, which
+  # would duplicate the shared types). Not part of `make test`'s product gates.
+  GauravaSurfaceSnapshots:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - GauravaSurfaceSnapshots
+      - path: Gaurava/SharedSurfaces/GauravaGlanceSnapshot.swift
+      - path: Gaurava/SharedSurfaces/GauravaSurface.swift
+      - path: Gaurava/SharedSurfaces/GlanceDisplayModel.swift
+      - path: Gaurava/SharedSurfaces/SurfaceSnapshotStore.swift
+      - path: Gaurava/SharedSurfaces/GauravaScreen.swift
+      - path: Gaurava/SharedSurfaces/SharedThemeTokens.swift
+      - path: GauravaWidgets/WidgetTheme.swift
+      - path: GauravaWidgets/CareGlanceWidget.swift
+      - path: GauravaWidgets/CareActionsWidget.swift
+      - path: GauravaWatch/WatchTheme.swift
+      - path: GauravaWatch/WatchRootView.swift
+      - path: GauravaWatch/WatchGlanceStore.swift
+      # Share-card output (the artifact people post) — pure ShareJourneyCardView.
+      - path: Gaurava/Models/Medication.swift
+      - path: Gaurava/Design/AppLanguage.swift
+      - path: Gaurava/Design/AppStyle.swift
+      - path: Gaurava/Design/ThemePalette.swift
+      - path: Gaurava/Sharing/ShareCardConfiguration.swift
+      - path: Gaurava/Sharing/ShareCardSnapshot.swift
+      - path: Gaurava/Sharing/ShareWeightTrendChart.swift
+      - path: Gaurava/Sharing/GauravaBrandMark.swift
+      - path: Gaurava/Sharing/ShareJourneyCardView.swift
+      # Combined catalog (widget + watch keys merged) lives in the source dir
+      # above; a target may have only ONE Localizable.xcstrings.
+    settings:
+      base:
+        SDKROOT: iphoneos
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator"
+        SUPPORTS_MACCATALYST: NO
+        TARGETED_DEVICE_FAMILY: "1,2"
+        PRODUCT_BUNDLE_IDENTIFIER: com.nags.gaurava.surfacesnapshots
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_EMIT_LOC_STRINGS: YES
+        STRING_CATALOG_GENERATE_SYMBOLS: YES
+        LOCALIZED_STRING_SWIFTUI_SUPPORT: YES
+        SWIFT_ACTIVE_COMPILATION_CONDITIONS: GAURAVA_SURFACE_SNAPSHOT
+      configs:
+        Debug:
+          DEVELOPMENT_TEAM: ""
+        Release:
+          DEVELOPMENT_TEAM: ""
+# Shared scheme so `make test` deterministically runs unit tests plus assertion
+# UI tests. Screenshot-only suites stay out of the default gate unless a human
+# explicitly wants to inspect generated images.
+schemes:
+  Gaurava:
+    build:
+      targets:
+        Gaurava: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      gatherCoverageData: false
+      targets:
+        - GauravaTests
+        # Capture/marketing suites are kept OUT of the default gate by the
+        # Makefile's -skip-testing flags (SKIP_CAPTURE_ONLY), NOT a scheme-level
+        # SkippedTests: a scheme skip also overrides -only-testing, which silently
+        # breaks `make capture-screenshots` and the marketing capture pipeline
+        # (xcodebuild reports "Executed 0 tests"). Keep them selectable here.
+        - GauravaUITests
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
+  # Local-only physical-device onboarding sandbox. This is intentionally not a
+  # TestFlight scheme.
+  GauravaOnboarding:
+    build:
+      targets:
+        GauravaOnboarding: all
+    run:
+      config: Debug
+    profile:
+      config: Debug
+    analyze:
+      config: Debug
+    archive:
+      config: Debug
+  # Shared scheme so the watch app launches deterministically on a watchOS
+  # Simulator (`make watch-build` / `watch-run`). Build-only target list keeps
+  # it independent of the iOS `Gaurava` scheme, whose test action is unchanged.
+  GauravaWatch:
+    build:
+      targets:
+        GauravaWatch: all
+    run:
+      config: Debug
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release

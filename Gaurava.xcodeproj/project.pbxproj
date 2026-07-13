@@ -1,0 +1,2096 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01913366F059E3AC1196DF7C /* WatchConnectivityReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB504240D9DAF0E0D3A4CF7 /* WatchConnectivityReceiver.swift */; };
+		01D3A2E36C5951B259170741 /* GlanceDisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7215688E0C2B894242A5B853 /* GlanceDisplayModel.swift */; };
+		03836ACFF4532A65019CF571 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B675650108B9DDED9D0B76BD /* LogView.swift */; };
+		040F7FDBBF0A101819DCFA86 /* OwnerSeedImportLaunchHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35661DC0686A5DFAE6054644 /* OwnerSeedImportLaunchHandler.swift */; };
+		06E489E49745B404509B332F /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 8F5C05F9A53B248FD1567CD2 /* AppIcon.icon */; };
+		0AB6FCDA75486DA1497CD2FE /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D0A2C6AE6C40A28722CD30B0 /* Localizable.xcstrings */; };
+		0B31A734B8F12307264F4699 /* GauravaGlanceSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCE1CA0665B88F90F1DF86A /* GauravaGlanceSnapshot.swift */; };
+		0B43944024E273D2F522AEC1 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 8F5C05F9A53B248FD1567CD2 /* AppIcon.icon */; };
+		0B55863AB7584A73D16BB770 /* SharedThemeTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D320CE09EB0C44BE8670507 /* SharedThemeTokens.swift */; };
+		0BCB47A6855B10268899B4AD /* GauravaSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0384CDC2C1141737DA78D1 /* GauravaSurface.swift */; };
+		0C313E219E6F551669DB9262 /* SurfaceNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E89E1E02F11A1389D678F1D /* SurfaceNavigation.swift */; };
+		0C914E34DE6E67E2C9CD6E3C /* RemoteChangeRepublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD35B512CA227D1ADAB3D410 /* RemoteChangeRepublisher.swift */; };
+		0CA376B04A090F9608524FE4 /* LocalizationPhase0SymbolProof.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA883475D0A54106F0709104 /* LocalizationPhase0SymbolProof.swift */; };
+		0CBFB199252151B11C7336C6 /* ClinicianExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65265A12CC1EA5590CB0E0E1 /* ClinicianExportView.swift */; };
+		0CEB5F832DB94BCCBB74AD46 /* FirstRunSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B950D57AC20E35E4CA03AE /* FirstRunSetupView.swift */; };
+		0F6C23B5B865B8DBB8E91EB3 /* ProvisionalCardLocalizationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A81B5B644AB9DA7EE7DDF0 /* ProvisionalCardLocalizationUITests.swift */; };
+		10ECA28A47B464B7A7D1C1FA /* GauravaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA03AFE8D903A93F3CA84BE /* GauravaUITests.swift */; };
+		11EC3F76ED58E01B7F87A2AC /* HealthKitWeightImportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA74C05AC9FE46FC3896F7C /* HealthKitWeightImportTests.swift */; };
+		130FDBE8F368E5C43A5AA74D /* SurfaceSnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD95CD1D59E5D28C63CEBD1 /* SurfaceSnapshotStore.swift */; };
+		132AC902A05669D7909AE580 /* WatchConnectivityCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C88233FD5D6F5B8DE7AED65 /* WatchConnectivityCoordinator.swift */; };
+		13C4D6A8105B7E8ED201E582 /* SurfaceNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E89E1E02F11A1389D678F1D /* SurfaceNavigation.swift */; };
+		15F3F450EE18437198D50033 /* LogCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0692A3C09944E169D2867C2E /* LogCapture.swift */; };
+		1794CB0B62F54D820D467C6F /* GauravaBrandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CB9A7062D808CDFCA8EDB1 /* GauravaBrandMark.swift */; };
+		18199F7962AAA77DD6A38618 /* LocalizationPhase0SymbolProof.swift in Sources */ = {isa = PBXBuildFile; fileRef = A174A73532CA8AC8BE06DAF2 /* LocalizationPhase0SymbolProof.swift */; };
+		182F58206C2E7BDAA3E9CDFA /* DosePhaseMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6844ECA2E7764C29E03DE457 /* DosePhaseMath.swift */; };
+		18D19234F054129B744CFE41 /* seed-mixed-switch.json in Resources */ = {isa = PBXBuildFile; fileRef = 67AA74FF528313EDA55D386F /* seed-mixed-switch.json */; };
+		196C03EBE7B5E95003BBDCC2 /* SurfaceSnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD95CD1D59E5D28C63CEBD1 /* SurfaceSnapshotStore.swift */; };
+		1A0D2EBB508D8867D01A5A83 /* InjectionActivityPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F72AC9215718C7F4443C1AC /* InjectionActivityPublisher.swift */; };
+		1A7E3BFD49C6C90373400151 /* GlanceDisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7215688E0C2B894242A5B853 /* GlanceDisplayModel.swift */; };
+		1A865B44D1F158D2FE31BC99 /* OneGlassMoodQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D13976F3DFACD456046E1 /* OneGlassMoodQuestion.swift */; };
+		1B292A6C4957483D5CB1D0EA /* SideEffectBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7249A1DA68F3A1416C3EB6C8 /* SideEffectBoard.swift */; };
+		1C3B1F5EA381E357A82DF93F /* GauravaInjectionActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020BB5CF57476054AC08F55D /* GauravaInjectionActivity.swift */; };
+		1C63072F3FAE2929FC097C84 /* LocalizationPhase0SymbolProof.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD94CC52E94CC071AA392895 /* LocalizationPhase0SymbolProof.swift */; };
+		1D7DB151CA42357DF7F42227 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D879D152B93075D6115B74 /* Medication.swift */; };
+		1DA081E1766E5DF53F8C2AE2 /* SharedThemeTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D320CE09EB0C44BE8670507 /* SharedThemeTokens.swift */; };
+		1E67F3B339552A9CD4B8615B /* QuickAddBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856B01AFE689F62941567A7 /* QuickAddBar.swift */; };
+		1EABDF445B871336A1BD12EC /* DeepLinkPrivacyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C950D44D360B9FAA4C4E84 /* DeepLinkPrivacyUITests.swift */; };
+		1F3F4397B68BC197A8687CDA /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618783DCBB0EDDCE0965AE /* ResultsView.swift */; };
+		20C83B6CEE4A8D529DBB69E8 /* LocalizationPhase0SymbolProof.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD94CC52E94CC071AA392895 /* LocalizationPhase0SymbolProof.swift */; };
+		21E07DF3F9A7FA85D5EE9FE5 /* GlancePublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF4058C1DB67E3DA0F9755A /* GlancePublisher.swift */; };
+		2300606F7058DDE63712E8C9 /* InjectionReminderPlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F312CC3C53F3EDC75612AB3A /* InjectionReminderPlanTests.swift */; };
+		24E4CC61DB39012A3A673F5F /* GauravaSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0384CDC2C1141737DA78D1 /* GauravaSurface.swift */; };
+		25042395AD219BC781FC233B /* WatchSnapshotPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94798B65B811987649F116C1 /* WatchSnapshotPublisher.swift */; };
+		25047FCCDAE0AA58157997EF /* ShareCardSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29482DE95FCDC2EDB7643BF0 /* ShareCardSnapshot.swift */; };
+		258F06DFEE0BBD5374CDE122 /* GauravaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715CCEA35014CA24F1E73D23 /* GauravaScreen.swift */; };
+		26FFCFFDB1A4985F8C9A42CF /* SeedImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A058BF764D884C85D62FA /* SeedImporter.swift */; };
+		288C3E91A9B451CEF69DC1AD /* TestStateSeedLaunchHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB092D45FD3F67E724C3136F /* TestStateSeedLaunchHandler.swift */; };
+		28FC04CA6332C50FD0B0AE90 /* GauravaGlanceSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCE1CA0665B88F90F1DF86A /* GauravaGlanceSnapshot.swift */; };
+		2B2580EB44E55A0A092ABA99 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DF09658023D6063AD6E4D1 /* SettingsView.swift */; };
+		2C415F276C2435A256421F2E /* SemaglutideVerificationScreenshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6574F53FA6DCE882C4A4ED /* SemaglutideVerificationScreenshotTests.swift */; };
+		2D9326D2749E99DE3EDCDD2D /* ShareJourneyComposerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32446653D457C47A562384F /* ShareJourneyComposerSheet.swift */; };
+		2E32B2604B38B7D192527E85 /* DeepLinkRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB62A7755BF17D278100A35 /* DeepLinkRoute.swift */; };
+		30F34FE96DAB9FE78FED3654 /* GlanceDisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7215688E0C2B894242A5B853 /* GlanceDisplayModel.swift */; };
+		32BFD1C1A66EF95126AB8359 /* LocalizationPhase0SymbolProof.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BD1CF91706F36C8AD001C0 /* LocalizationPhase0SymbolProof.swift */; };
+		33AD7B08FB13CC8CD2A1221F /* OpenScreenIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32AA5081AC289E4BD1AFD6 /* OpenScreenIntents.swift */; };
+		34337DD478CF8C552AAD2EA1 /* InjectionSiteRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7885578E1B57D6E74D234B1 /* InjectionSiteRotation.swift */; };
+		345C20BED5BD40E4E740A91D /* SharedThemeTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D320CE09EB0C44BE8670507 /* SharedThemeTokens.swift */; };
+		35EDC4C2BCC7CD2386D5F8AB /* GauravaInjectionActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020BB5CF57476054AC08F55D /* GauravaInjectionActivity.swift */; };
+		371D7A6B2C5F0CEE264490AC /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5E5A8C65CF0100BF6D1E0 /* SampleData.swift */; };
+		37C6483C1EEF26A99F904C79 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2F8AC7573A206E30674DB4BF /* Localizable.xcstrings */; };
+		398B57485A0B6E238529C462 /* GauravaGlanceSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCE1CA0665B88F90F1DF86A /* GauravaGlanceSnapshot.swift */; };
+		3BBD21B9F79351496F6F52F4 /* SurfaceNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E89E1E02F11A1389D678F1D /* SurfaceNavigation.swift */; };
+		3C12D2B64A438CD3500C7E1E /* TrackerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F296992C35D92CF911553CDF /* TrackerModels.swift */; };
+		3D68BDFB4D645B1301B27034 /* ClinicianExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96B99593E96C84AD8EB752B /* ClinicianExport.swift */; };
+		3DE45F15CE7E8A0636508390 /* ShareCardRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0999F91E989D00C9EB33D680 /* ShareCardRenderer.swift */; };
+		3DFA2EDB74F60E953357A8E0 /* GlanceDisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7215688E0C2B894242A5B853 /* GlanceDisplayModel.swift */; };
+		3E59EF2F29D3FFDCA40BBC3C /* ShareJourneyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA83223F040547FA84E1D19A /* ShareJourneyCardView.swift */; };
+		3E6461A3B2492B4EB1341698 /* GauravaInjectionActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020BB5CF57476054AC08F55D /* GauravaInjectionActivity.swift */; };
+		40651B1855B6DE029DFDAAF6 /* ShareWeightTrendChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643B52A3B0A66D6788D9ED8 /* ShareWeightTrendChart.swift */; };
+		4117D2AF385FC8B4E4C5105A /* DosePhaseMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6844ECA2E7764C29E03DE457 /* DosePhaseMath.swift */; };
+		4228028B2C6A2892711AD492 /* MedicationSelectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369488E7421B71C69C98EDD3 /* MedicationSelectionUITests.swift */; };
+		43443BE963CF8679E598D34C /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D584D0D90BA698000752FDF3 /* SummaryView.swift */; };
+		435E594158AFF2A38737748B /* GauravaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715CCEA35014CA24F1E73D23 /* GauravaScreen.swift */; };
+		43A30483EC0C866411DF41FE /* GauravaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0BF0A96070DB4DC8B26C1 /* GauravaApp.swift */; };
+		45E4C0D9C9C89158A17CF938 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D879D152B93075D6115B74 /* Medication.swift */; };
+		464BC2E7EBA32D1EB72EF5E0 /* AppIntentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09A453A33957BF8F95A2432 /* AppIntentTests.swift */; };
+		49B523E1E6961CC4DA35B96F /* SeedImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A058BF764D884C85D62FA /* SeedImporter.swift */; };
+		49FBDB4C4EF756324E23979F /* WatchSnapshotTransportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39002D2B5F1D8AAC1BB96338 /* WatchSnapshotTransportTests.swift */; };
+		4B509B2657655817E7B9608A /* DeepLinkRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB62A7755BF17D278100A35 /* DeepLinkRoute.swift */; };
+		4BFFD0FF8EC6D71BCFBE0BE8 /* GauravaWatchWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E3C072A725314C472F513184 /* GauravaWatchWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4ECB2FFCA9491FD9139F1528 /* WatchGlanceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57295A8D8A82F65A3CE14CBC /* WatchGlanceStore.swift */; };
+		4F75A357049C2725C7652134 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 9A16769B729B248569FA0D1E /* InfoPlist.xcstrings */; };
+		51C622DCB5CA000DD24910E8 /* ShareCardConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06481775E4281FA7D4CDD503 /* ShareCardConfiguration.swift */; };
+		525CD8F52977B3231E87765B /* GlanceProjectionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A8EA1D96C3574548BC0636 /* GlanceProjectionBuilder.swift */; };
+		544AC2B534F725D4EA70F71F /* SideEffectBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7249A1DA68F3A1416C3EB6C8 /* SideEffectBoard.swift */; };
+		54B7565021DD0F65D2E465CB /* ClinicianExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65265A12CC1EA5590CB0E0E1 /* ClinicianExportView.swift */; };
+		57A0B033D16CE04C9C321C9A /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B675650108B9DDED9D0B76BD /* LogView.swift */; };
+		57E939FE94F1F0E42F454CE9 /* GauravaGlanceSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCE1CA0665B88F90F1DF86A /* GauravaGlanceSnapshot.swift */; };
+		59324CB58B4B03ED9E00C8A1 /* FirstRunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDE73965EC975575F0D96C /* FirstRunUITests.swift */; };
+		5A4421EB3272A94152DD8B69 /* SurfacePreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B88131592BDE4229D79894F /* SurfacePreferences.swift */; };
+		5A502186BC068214E00B287A /* GauravaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715CCEA35014CA24F1E73D23 /* GauravaScreen.swift */; };
+		5BDBD66D9D4F8359F8F823A7 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 20667D028EA4CB08EE080667 /* InfoPlist.xcstrings */; };
+		5C4C952D54F775878EE863CA /* GauravaWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B92E9A375B1A8134ED942BB /* GauravaWatchApp.swift */; };
+		5D009C54BF65C8C0BE41B567 /* UITestTabHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FEA9BA79D6EFACA1158E10 /* UITestTabHelpers.swift */; };
+		5DFF10986EED51E00B71BCF4 /* InjectionReminderPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A924FB407304411498A9282 /* InjectionReminderPermission.swift */; };
+		5F9B8BE46178D8C13E66910A /* GauravaSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0384CDC2C1141737DA78D1 /* GauravaSurface.swift */; };
+		60119B8DCFFFA9210D67C0D6 /* OpenScreenIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32AA5081AC289E4BD1AFD6 /* OpenScreenIntents.swift */; };
+		60FF88E8C0D035D283522B81 /* InjectionReminderPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630958406D5813A70C51A0A7 /* InjectionReminderPlan.swift */; };
+		63EFCE40E3253FBCC6127AD4 /* AdaptiveStatesMatrixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB12C1BD01F2B14F999EA3B /* AdaptiveStatesMatrixUITests.swift */; };
+		6637E49063CDF3FAC44F3394 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 9F4B00E0DB4EA838C332773E /* InfoPlist.xcstrings */; };
+		667CB7651350439B7571F69A /* GauravaSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0384CDC2C1141737DA78D1 /* GauravaSurface.swift */; };
+		68089F36D0A17A59B21D0C92 /* WidgetTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2BE8919981D6B8EE0B380 /* WidgetTheme.swift */; };
+		6850ADE807131E35C0340F7F /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025C4DA17CA6B386365323F2 /* AppLanguage.swift */; };
+		68AB822C13AB4A7EA0ADCC62 /* ShareWeightTrendChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643B52A3B0A66D6788D9ED8 /* ShareWeightTrendChart.swift */; };
+		6910A669905ABE6264475106 /* DeepLinkRouteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8FB3232D2A9CBC2305489B /* DeepLinkRouteTests.swift */; };
+		694D04256F1353FF6B7FDA64 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51618783DCBB0EDDCE0965AE /* ResultsView.swift */; };
+		69710C016124D055F69422AE /* ShareWeightTrendChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5643B52A3B0A66D6788D9ED8 /* ShareWeightTrendChart.swift */; };
+		6A82A3708ED5FA9CB52F0CB0 /* InjectionReminderSchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81912F2DBA624788EF582B9C /* InjectionReminderSchedulerTests.swift */; };
+		6BAEACD7A587A16823A4A1CC /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 36F3BA9F721CADFD556022CF /* InfoPlist.xcstrings */; };
+		6CB297BECB38A3EAC148D79D /* GauravaSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0384CDC2C1141737DA78D1 /* GauravaSurface.swift */; };
+		6CD7D38135BB068D9C7603BD /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025C4DA17CA6B386365323F2 /* AppLanguage.swift */; };
+		6CEBC46F14978ADA6359791E /* GlanceDisplayModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C9EEECE4DDAFB3EBE25B16 /* GlanceDisplayModelTests.swift */; };
+		6D4DF3A8E3CD788DE23FE6CF /* InjectionReminderPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630958406D5813A70C51A0A7 /* InjectionReminderPlan.swift */; };
+		6E4B56F4CE602EC59617E89D /* WatchConnectivityCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C88233FD5D6F5B8DE7AED65 /* WatchConnectivityCoordinator.swift */; };
+		6F99670BEA0A9EF4A4D904FF /* ThemePalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4F1EA4AE4DB209766ACC01 /* ThemePalette.swift */; };
+		72682F24E29E6026ED18B3E0 /* JabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081932553F1B1321EB5FD0F9 /* JabsView.swift */; };
+		72C49165C4D7D379C979AC7F /* SurfaceSnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD95CD1D59E5D28C63CEBD1 /* SurfaceSnapshotStore.swift */; };
+		74A8F01AF276FC24A587279D /* ShareCardConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06481775E4281FA7D4CDD503 /* ShareCardConfiguration.swift */; };
+		75C4B56980424559C637CCC1 /* InjectionReminderScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA660C61CDFBE1D5A2AFE0E /* InjectionReminderScheduler.swift */; };
+		7621911179E96F3DB859A720 /* glance-snapshot-v1-phrase-only.json in Resources */ = {isa = PBXBuildFile; fileRef = CD12FF1F2BAA0C3F992B1968 /* glance-snapshot-v1-phrase-only.json */; };
+		76A0890A0291E420E8D58E99 /* WidgetTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F2BE8919981D6B8EE0B380 /* WidgetTheme.swift */; };
+		76A1F0EF28C0E0C5B8C97F03 /* TreatmentStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5462FA0D467FF46F8B713C9D /* TreatmentStatus.swift */; };
+		76C95C3AAEA3B9DDBCC8CC59 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B3C28B592E628F4664E68A11 /* Localizable.xcstrings */; };
+		780DBA8FDE17A5124979AD63 /* QuickAddBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856B01AFE689F62941567A7 /* QuickAddBar.swift */; };
+		78556EA32E38B1538A07C0D0 /* PrivateOwnerSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B6543E97EF1F4DB35E5D3B /* PrivateOwnerSeed.swift */; };
+		790134B9367A4B45D3607DD5 /* JabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081932553F1B1321EB5FD0F9 /* JabsView.swift */; };
+		7942EAB4A90D0BA4F8DC14BA /* GauravaWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EF97C79EE9EC3A3DE047EFE9 /* GauravaWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7A57A3A55270FD54426E880D /* GauravaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715CCEA35014CA24F1E73D23 /* GauravaScreen.swift */; };
+		7C72278F881DB50E83DCAACA /* TreatmentStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5462FA0D467FF46F8B713C9D /* TreatmentStatus.swift */; };
+		7F977BCBBD95F0788EB057A6 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D584D0D90BA698000752FDF3 /* SummaryView.swift */; };
+		7FA1FAAB554EDD1843342687 /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7C08CD2F82C677EB49D110 /* AppStyle.swift */; };
+		83B6096B21BCF4EB14F44F29 /* seed-tirzepatide.json in Resources */ = {isa = PBXBuildFile; fileRef = E7A7C9AAA6BA7DAD918F945B /* seed-tirzepatide.json */; };
+		8429635C6E2B58D0ACDB74BC /* ModelContainerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B26AC7104788E752C92923 /* ModelContainerFactory.swift */; };
+		8529DB2CCD3CE4B48414797D /* InjectionSiteRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7885578E1B57D6E74D234B1 /* InjectionSiteRotation.swift */; };
+		853D650DB6A2ABD35A71DC77 /* ShareCardPhotoLibrarySaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F101883743096193C765B8 /* ShareCardPhotoLibrarySaver.swift */; };
+		889FD716136A69A71A7AC98A /* InjectionReminderScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA660C61CDFBE1D5A2AFE0E /* InjectionReminderScheduler.swift */; };
+		88E278415A0AB6157D3EDBED /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5E5A8C65CF0100BF6D1E0 /* SampleData.swift */; };
+		8AD3EC0BC37BB04BC7646ABC /* GauravaSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0384CDC2C1141737DA78D1 /* GauravaSurface.swift */; };
+		8B048F94E1A17D7ECEC1D77D /* GauravaGlanceSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCE1CA0665B88F90F1DF86A /* GauravaGlanceSnapshot.swift */; };
+		8B08C6A52D928CA8C621F968 /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7C08CD2F82C677EB49D110 /* AppStyle.swift */; };
+		8BD5C91EC0C82278D9DA0A55 /* GlancePublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF4058C1DB67E3DA0F9755A /* GlancePublisher.swift */; };
+		8DB9C24C2F9A88B747407753 /* InjectionLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F26FC498397D8A7DC226083 /* InjectionLiveActivity.swift */; };
+		8E0F9FEFAE4BBAABA3CE0588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C1247F32EF8667D96B291A1 /* Assets.xcassets */; };
+		8F96E9E01DEE1EF988DBBB43 /* ShareJourneyComposerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32446653D457C47A562384F /* ShareJourneyComposerSheet.swift */; };
+		90D4CBE7993AD299889988A1 /* OnboardingDefinitionOfDoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC47AB43B7F04620BB0C4F1 /* OnboardingDefinitionOfDoneTests.swift */; };
+		9162488E87C4FFF754797A6F /* GlanceProjectionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A8EA1D96C3574548BC0636 /* GlanceProjectionBuilder.swift */; };
+		916396163EE9FBAEC5701896 /* CareGlanceWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542D868FD79ED8E2734175D1 /* CareGlanceWidget.swift */; };
+		93C81E98E10E78C49574F06F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 983D01A894214807D58213A7 /* Localizable.xcstrings */; };
+		941C2CC3D1396418441BFC87 /* WatchTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F910D52F3403E7011CEA0F49 /* WatchTheme.swift */; };
+		94ED5C05B24C2FE30B417D02 /* SurfaceSnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD95CD1D59E5D28C63CEBD1 /* SurfaceSnapshotStore.swift */; };
+		951E31A9B7BDE8402722737A /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D0A2C6AE6C40A28722CD30B0 /* Localizable.xcstrings */; };
+		952091F39685AF9AD41F51FD /* GauravaWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6448B69857F313FA1F562D2 /* GauravaWidgetsBundle.swift */; };
+		975A6A278C03831B8EE923AB /* GauravaWatchWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4182F24DBB448F1405A7F2E0 /* GauravaWatchWidgetsBundle.swift */; };
+		98910849E47DA3957BC27148 /* ShareCardConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06481775E4281FA7D4CDD503 /* ShareCardConfiguration.swift */; };
+		98EAC7FCFB1400A863783983 /* GauravaAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5542B0651C651E81441920AC /* GauravaAppDelegate.swift */; };
+		99160480AB05138C0EF0E04F /* LocalizationSmokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F548EA7B16F620EA552FEBC5 /* LocalizationSmokeUITests.swift */; };
+		9AE2CAE2ACB3D31756DAB5FF /* OpenScreenIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB32AA5081AC289E4BD1AFD6 /* OpenScreenIntents.swift */; };
+		9CBB0F256858944BB3E89F08 /* WatchTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F910D52F3403E7011CEA0F49 /* WatchTheme.swift */; };
+		9D63756FBCDE9592C3B838AF /* CareGlanceWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542D868FD79ED8E2734175D1 /* CareGlanceWidget.swift */; };
+		9E39AAB56E402DB698D24CF3 /* GlanceSurfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5E32EB966AFB621C8721DD /* GlanceSurfaceTests.swift */; };
+		9FC56F9F77F58BE9516FB941 /* GauravaGlanceSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCE1CA0665B88F90F1DF86A /* GauravaGlanceSnapshot.swift */; };
+		A22F41E0A5CF87786355E288 /* SharedThemeTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D320CE09EB0C44BE8670507 /* SharedThemeTokens.swift */; };
+		A27C4BB7326107FEB960796E /* InjectionReminderPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A924FB407304411498A9282 /* InjectionReminderPermission.swift */; };
+		A30F77CB23468842C4B33122 /* LogCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0692A3C09944E169D2867C2E /* LogCapture.swift */; };
+		A35809975D8B7B4AE7009654 /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C490249BB50D613DD8DBD7 /* AppRootView.swift */; };
+		A477B27C4EDE5559909D8E00 /* GlanceDisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7215688E0C2B894242A5B853 /* GlanceDisplayModel.swift */; };
+		A50A5B3CA6CF0A83FEBA5E47 /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025C4DA17CA6B386365323F2 /* AppLanguage.swift */; };
+		A5689ED8C88DE705EE8D5E58 /* ShareCardSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29482DE95FCDC2EDB7643BF0 /* ShareCardSnapshot.swift */; };
+		A6680326522CF13512723159 /* HealthKitWeightImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F8A320404DB4601B27C069 /* HealthKitWeightImporter.swift */; };
+		A7C97E586FB4580196889CC8 /* seed-semaglutide-titration.json in Resources */ = {isa = PBXBuildFile; fileRef = 246F8E4D8054E3C7C4A3FF79 /* seed-semaglutide-titration.json */; };
+		A8E2020E81012BC0737A3D34 /* ModelContainerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B26AC7104788E752C92923 /* ModelContainerFactory.swift */; };
+		A975274D4FED175015021EA6 /* WatchConnectivitySnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DC586BB673729C4A9A2F7 /* WatchConnectivitySnapshotStore.swift */; };
+		AA99267EDFEA059069F911AC /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7C08CD2F82C677EB49D110 /* AppStyle.swift */; };
+		ABA27CD81EE10EF5A75935D7 /* DosePhaseMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19BBA8302A3D8B71AD6BA8 /* DosePhaseMathTests.swift */; };
+		ABDA0CA1069D27583A12B3B3 /* AdaptiveStatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4800AE13F7949F9D38A2E2A /* AdaptiveStatesTests.swift */; };
+		AC2509D816C73E6D78AE9E53 /* TrackerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F296992C35D92CF911553CDF /* TrackerModels.swift */; };
+		AE2AE3CDC9415B3E47E65A90 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D9028FB1340C8D51099FA046 /* Localizable.xcstrings */; };
+		AF63F88EF3099953993B0730 /* ShareJourneyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA83223F040547FA84E1D19A /* ShareJourneyCardView.swift */; };
+		B5D324C45F880877026603D7 /* SurfacePreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B88131592BDE4229D79894F /* SurfacePreferences.swift */; };
+		B6BE6F8C22F5446D280C4DE8 /* HealthKitWeightImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F8A320404DB4601B27C069 /* HealthKitWeightImporter.swift */; };
+		B711CBD07DB6892E9277E2AD /* GauravaBrandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CB9A7062D808CDFCA8EDB1 /* GauravaBrandMark.swift */; };
+		B7211C22A91F98234D97DF4D /* TestStateSeedLaunchHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB092D45FD3F67E724C3136F /* TestStateSeedLaunchHandler.swift */; };
+		B8973712AF90F9DEFA05FEDE /* GauravaControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AD8AE48FABE79977DE1DDC /* GauravaControls.swift */; };
+		BA9062B119CA8922B9D0ED23 /* CareActionsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7D6DE1259C48D690C184C3 /* CareActionsWidget.swift */; };
+		BAA07BEE006C116FF18DD987 /* InjectionActivityPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F72AC9215718C7F4443C1AC /* InjectionActivityPublisher.swift */; };
+		BDA94F172FE964BD65E80447 /* GauravaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0BF0A96070DB4DC8B26C1 /* GauravaApp.swift */; };
+		BE7E4F363E05C9C7E17E0CE5 /* ThemePalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4F1EA4AE4DB209766ACC01 /* ThemePalette.swift */; };
+		C0055C031336E85AB6744CAC /* TreatmentFormComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791FEB6CA60F5006D2924936 /* TreatmentFormComponents.swift */; };
+		C15B7DDA42084FA5A6374082 /* QuickAddBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD27529CBADCA51CBC9D394C /* QuickAddBarUITests.swift */; };
+		C1716FDCDA3D9CD73065DB82 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 8F5C05F9A53B248FD1567CD2 /* AppIcon.icon */; };
+		C1ACDEBED002B154C1D90C9E /* WatchTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F910D52F3403E7011CEA0F49 /* WatchTheme.swift */; };
+		C1D4DF727A48FE266E11E3D5 /* RemoteChangeRepublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD35B512CA227D1ADAB3D410 /* RemoteChangeRepublisher.swift */; };
+		C30FBE60713A43526201F56B /* Build0RefactorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A78EB4966EE6C22483761EA /* Build0RefactorTests.swift */; };
+		C3A4561DDA54822EC96B190C /* WatchGlanceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57295A8D8A82F65A3CE14CBC /* WatchGlanceStore.swift */; };
+		C74944C8CA982B52EE00E4F7 /* GauravaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F6B403C7A634816BEEE79B /* GauravaTests.swift */; };
+		C852BBCE5D8BBAE64F7E0EA7 /* WatchConnectivitySnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0DC586BB673729C4A9A2F7 /* WatchConnectivitySnapshotStore.swift */; };
+		C8A24BCFE1214DA015FEEA9E /* GauravaWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7BCC40468D9A5742744108B4 /* GauravaWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C8C800331432C581B6B285C6 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C7F4F19B5B329E30634020F8 /* InfoPlist.xcstrings */; };
+		C8CED1A66ADF37A909D2EAEF /* SurfaceSnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD95CD1D59E5D28C63CEBD1 /* SurfaceSnapshotStore.swift */; };
+		CA87D81E508712523570634C /* InjectionActivityProjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF6916C401F6736BB3C08B5 /* InjectionActivityProjection.swift */; };
+		CAB2D87DAD67DD79F9E593F2 /* WatchSnapshotPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94798B65B811987649F116C1 /* WatchSnapshotPublisher.swift */; };
+		CB9062ED7A6AACC3170C2D2E /* TabBarMinimizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261AAEE941931C33B0650FA8 /* TabBarMinimizeUITests.swift */; };
+		CCC313FB2617A7E9687CBA34 /* SurfaceSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB183B8D87214161BE4DDED /* SurfaceSnapshotTests.swift */; };
+		D0BAE1696E7B78F28916039A /* FirstRunSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B950D57AC20E35E4CA03AE /* FirstRunSetupView.swift */; };
+		D33E51E88F9B3F8380FE3ADC /* ShareCardSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29482DE95FCDC2EDB7643BF0 /* ShareCardSnapshot.swift */; };
+		D35019628F1A0339BF2BC7F6 /* MarketingScreenshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAE4B0CD11C6CDFA78130E3 /* MarketingScreenshotTests.swift */; };
+		D39818384A4FFBAE8A8D480E /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D879D152B93075D6115B74 /* Medication.swift */; };
+		D6AE3E549CB6721BB46A8DAD /* LiveActivityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D0F5969D972BD631055A95 /* LiveActivityUITests.swift */; };
+		D7B90F2FA1B030D5E6146905 /* SurfaceSnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD95CD1D59E5D28C63CEBD1 /* SurfaceSnapshotStore.swift */; };
+		D9166B336C0F5EDDD4E2578F /* WatchRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A89D572B9FD8A01C8F5C8BF /* WatchRootView.swift */; };
+		D994CF7C3BCEC46A02734529 /* TreatmentMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B8D1531D1832EEB50A7A72 /* TreatmentMath.swift */; };
+		DA8625B26F1CC0F8188A401E /* TreatmentScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97154E4020BCAD539B4BE91 /* TreatmentScheduleTests.swift */; };
+		DC4A41E51817C7AF3FF6BA3E /* GauravaAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5542B0651C651E81441920AC /* GauravaAppDelegate.swift */; };
+		DD0CE4F47E2DEF33010C9051 /* ShareCardRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0999F91E989D00C9EB33D680 /* ShareCardRenderer.swift */; };
+		DEE9292C03598DB0D88C3A3D /* ShareJourneyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA83223F040547FA84E1D19A /* ShareJourneyCardView.swift */; };
+		DF428713E1AB153591221A86 /* PrivateOwnerSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410D04E0EDE4076F8B499120 /* PrivateOwnerSeed.swift */; };
+		DF47C6C6EBF643EA374AE649 /* TreatmentFormComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791FEB6CA60F5006D2924936 /* TreatmentFormComponents.swift */; };
+		DFCDF6DA3A3A122A727F313F /* SeedImportPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF08C31EDF7F66C2EB33C5D6 /* SeedImportPayload.swift */; };
+		E11A8BD677668A313CD37971 /* CareActionsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7D6DE1259C48D690C184C3 /* CareActionsWidget.swift */; };
+		E2CBC12C5909B642C0AB30C9 /* GoalWeightRuler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E26E623821967AF34212C05 /* GoalWeightRuler.swift */; };
+		E2E396E25AAC4574F344C7BF /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C490249BB50D613DD8DBD7 /* AppRootView.swift */; };
+		E3028197077DE7D2A42295CE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DF09658023D6063AD6E4D1 /* SettingsView.swift */; };
+		E41B48D74638555AE8781828 /* TreatmentMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B8D1531D1832EEB50A7A72 /* TreatmentMath.swift */; };
+		E47668E9EB3850D8D0C634C7 /* ModelWriteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4F5E1824B7B0628C5FCD5 /* ModelWriteService.swift */; };
+		E5BBAE3DD91DDC4F2EAD33EF /* SeedImportPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF08C31EDF7F66C2EB33C5D6 /* SeedImportPayload.swift */; };
+		E5BE5EA273C9FB99BADAB1F8 /* GlanceDisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7215688E0C2B894242A5B853 /* GlanceDisplayModel.swift */; };
+		E67E338C3EF4390FD1953BAC /* InjectionActivityProjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF6916C401F6736BB3C08B5 /* InjectionActivityProjection.swift */; };
+		E72E162EDF1EB9727CF15BA4 /* InjectionActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8A25C6A87E1ECA2DA86851 /* InjectionActivityController.swift */; };
+		EC13C1D2E90940E26DC0E133 /* ShareCardPhotoLibrarySaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F101883743096193C765B8 /* ShareCardPhotoLibrarySaver.swift */; };
+		F02091630783066D2E63C564 /* SharedThemeTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D320CE09EB0C44BE8670507 /* SharedThemeTokens.swift */; };
+		F11DF51BDD9A4BA5EB04CFF6 /* OneGlassMoodQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D13976F3DFACD456046E1 /* OneGlassMoodQuestion.swift */; };
+		F1959336318C67F936C85D77 /* OwnerSeedImportLaunchHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35661DC0686A5DFAE6054644 /* OwnerSeedImportLaunchHandler.swift */; };
+		F2465FC039FBD9411A83997B /* SharedThemeTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D320CE09EB0C44BE8670507 /* SharedThemeTokens.swift */; };
+		F2A8EE38BBF4B97BD7244AAF /* ClinicianExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96B99593E96C84AD8EB752B /* ClinicianExport.swift */; };
+		F39E50FA60820D8575D278C8 /* SurfacePreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B88131592BDE4229D79894F /* SurfacePreferences.swift */; };
+		F4EE203DB64A6B09ED16D84F /* LocalizedScreenshotAuditUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99F2F09FFB2AD341728A200 /* LocalizedScreenshotAuditUITests.swift */; };
+		F5435FD59E4AFB42BD699A5E /* ThemePalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4F1EA4AE4DB209766ACC01 /* ThemePalette.swift */; };
+		F69E493DD3227F93564D4B72 /* GauravaBrandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CB9A7062D808CDFCA8EDB1 /* GauravaBrandMark.swift */; };
+		F6BBFA2E42913A6893E843FE /* ThemePaletteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C4CE9B6F58CB8614B6EB2 /* ThemePaletteTests.swift */; };
+		F7AACE8436F9ACD06397B997 /* InjectionActivityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B87EF584CC5E08AA6CFBA8F /* InjectionActivityTests.swift */; };
+		F8A7BA7CD5DAE088487ED3FA /* ModelWriteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4F5E1824B7B0628C5FCD5 /* ModelWriteService.swift */; };
+		F9F53AA977DEB5EE34151E80 /* WatchRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A89D572B9FD8A01C8F5C8BF /* WatchRootView.swift */; };
+		FB3C32E005629E4A9B4F2AE2 /* InjectionActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8A25C6A87E1ECA2DA86851 /* InjectionActivityController.swift */; };
+		FBB7F4EB2FBE08494859D617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C1247F32EF8667D96B291A1 /* Assets.xcassets */; };
+		FE6ED21BD9BB3ECDBAF827B3 /* GoalWeightRuler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E26E623821967AF34212C05 /* GoalWeightRuler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0023AD166B3B014D2834034F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED5D267BE3E784044E4A866E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC2DCA6030FD7F6EF2390755;
+			remoteInfo = Gaurava;
+		};
+		1A784DBC9DD15E0E56268FBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED5D267BE3E784044E4A866E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC2DCA6030FD7F6EF2390755;
+			remoteInfo = Gaurava;
+		};
+		4A85B84DB7B7AE999A102B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED5D267BE3E784044E4A866E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3B7A86C2F9F60F2983AECC7;
+			remoteInfo = GauravaWidgets;
+		};
+		4EAECE768F675691BC0642B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED5D267BE3E784044E4A866E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A59DB920B7A4C7072AF8953;
+			remoteInfo = GauravaWatch;
+		};
+		A16BCBEC12056568DCBBB991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED5D267BE3E784044E4A866E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAA3299E38BD3F24449C393F;
+			remoteInfo = GauravaWatchWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5EC36E3A78340A8514347224 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4BFFD0FF8EC6D71BCFBE0BE8 /* GauravaWatchWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C139D96D49CDF63C3F6616 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C8A24BCFE1214DA015FEEA9E /* GauravaWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48054BD38A39E3F6D39DA3A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7942EAB4A90D0BA4F8DC14BA /* GauravaWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		020BB5CF57476054AC08F55D /* GauravaInjectionActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauravaInjectionActivity.swift; sourceTree = "<group>"; };
+		025C4DA17CA6B386365323F2 /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
+		06481775E4281FA7D4CDD503 /* ShareCardConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCardConfiguration.swift; sourceTree = "<group>"; };
+		0692A3C09944E169D2867C2E /* LogCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogCapture.swift; sourceTree = "<group>"; };
+		081932553F1B1321EB5FD0F9 /* JabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JabsView.swift; sourceTree = "<group>"; };
+		08FEA9BA79D6EFACA1158E10 /* UITestTabHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestTabHelpers.swift; sourceTree = "<group>"; };
+		0999F91E989D00C9EB33D680 /* ShareCardRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCardRenderer.swift; sourceTree = "<group>"; };
+		0D320CE09EB0C44BE8670507 /* SharedThemeTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedThemeTokens.swift; sourceTree = "<group>"; };
+		0DC47AB43B7F04620BB0C4F1 /* OnboardingDefinitionOfDoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingDefinitionOfDoneTests.swift; sourceTree = "<group>"; };
+		0E58304FFD7F87BC8806BA32 /* GauravaWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GauravaWatch.entitlements; sourceTree = "<group>"; };
+		165D13976F3DFACD456046E1 /* OneGlassMoodQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneGlassMoodQuestion.swift; sourceTree = "<group>"; };
+		1856B01AFE689F62941567A7 /* QuickAddBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAddBar.swift; sourceTree = "<group>"; };
+		1AB183B8D87214161BE4DDED /* SurfaceSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfaceSnapshotTests.swift; sourceTree = "<group>"; };
+		20667D028EA4CB08EE080667 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		21EFA1E05AC3BA59BB8D4966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		246F8E4D8054E3C7C4A3FF79 /* seed-semaglutide-titration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "seed-semaglutide-titration.json"; sourceTree = "<group>"; };
+		261AAEE941931C33B0650FA8 /* TabBarMinimizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarMinimizeUITests.swift; sourceTree = "<group>"; };
+		27F6B403C7A634816BEEE79B /* GauravaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauravaTests.swift; sourceTree = "<group>"; };
+		28C5E5A8C65CF0100BF6D1E0 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		29482DE95FCDC2EDB7643BF0 /* ShareCardSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCardSnapshot.swift; sourceTree = "<group>"; };
+		2BF4058C1DB67E3DA0F9755A /* GlancePublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlancePublisher.swift; sourceTree = "<group>"; };
+		2F7D6DE1259C48D690C184C3 /* CareActionsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareActionsWidget.swift; sourceTree = "<group>"; };
+		2F8AC7573A206E30674DB4BF /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		35661DC0686A5DFAE6054644 /* OwnerSeedImportLaunchHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerSeedImportLaunchHandler.swift; sourceTree = "<group>"; };
+		369488E7421B71C69C98EDD3 /* MedicationSelectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationSelectionUITests.swift; sourceTree = "<group>"; };
+		36DF09658023D6063AD6E4D1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		36F3BA9F721CADFD556022CF /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		39002D2B5F1D8AAC1BB96338 /* WatchSnapshotTransportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSnapshotTransportTests.swift; sourceTree = "<group>"; };
+		3D0DC586BB673729C4A9A2F7 /* WatchConnectivitySnapshotStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivitySnapshotStore.swift; sourceTree = "<group>"; };
+		3DB62A7755BF17D278100A35 /* DeepLinkRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkRoute.swift; sourceTree = "<group>"; };
+		3E26E623821967AF34212C05 /* GoalWeightRuler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalWeightRuler.swift; sourceTree = "<group>"; };
+		3E4F1EA4AE4DB209766ACC01 /* ThemePalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePalette.swift; sourceTree = "<group>"; };
+		3F8FB3232D2A9CBC2305489B /* DeepLinkRouteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkRouteTests.swift; sourceTree = "<group>"; };
+		410D04E0EDE4076F8B499120 /* PrivateOwnerSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateOwnerSeed.swift; sourceTree = "<group>"; };
+		4182F24DBB448F1405A7F2E0 /* GauravaWatchWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauravaWatchWidgetsBundle.swift; sourceTree = "<group>"; };
+		42B9A2A1F8DA491566B06802 /* Gaurava.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gaurava.entitlements; sourceTree = "<group>"; };
+		45D586D039BA1CDE46E5D77C /* GauravaOnboarding.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = GauravaOnboarding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AD8AE48FABE79977DE1DDC /* GauravaControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauravaControls.swift; sourceTree = "<group>"; };
+		49BFF7E1CE096308EFA4E389 /* GauravaTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = GauravaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F72AC9215718C7F4443C1AC /* InjectionActivityPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectionActivityPublisher.swift; sourceTree = "<group>"; };
+		51618783DCBB0EDDCE0965AE /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		542D868FD79ED8E2734175D1 /* CareGlanceWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareGlanceWidget.swift; sourceTree = "<group>"; };
+		5462FA0D467FF46F8B713C9D /* TreatmentStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentStatus.swift; sourceTree = "<group>"; };
+		5542B0651C651E81441920AC /* GauravaAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauravaAppDelegate.swift; sourceTree = "<group>"; };
+		5643B52A3B0A66D6788D9ED8 /* ShareWeightTrendChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareWeightTrendChart.swift; sourceTree = "<group>"; };
+		57295A8D8A82F65A3CE14CBC /* WatchGlanceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchGlanceStore.swift; sourceTree = "<group>"; };
+		58FC63682B3B280ADCADF68E /* GauravaUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = GauravaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB504240D9DAF0E0D3A4CF7 /* WatchConnectivityReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityReceiver.swift; sourceTree = "<group>"; };
+		5FB12C1BD01F2B14F999EA3B /* AdaptiveStatesMatrixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveStatesMatrixUITests.swift; sourceTree = "<group>"; };
+		60B950D57AC20E35E4CA03AE /* FirstRunSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRunSetupView.swift; sourceTree = "<group>"; };
+		630958406D5813A70C51A0A7 /* InjectionReminderPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectionReminderPlan.swift; sourceTree = "<group>"; };
+		65265A12CC1EA5590CB0E0E1 /* ClinicianExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicianExportView.swift; sourceTree = "<group>"; };
+		653CF394CE64B8257A2A14FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		65C950D44D360B9FAA4C4E84 /* DeepLinkPrivacyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkPrivacyUITests.swift; sourceTree = "<group>"; };
+		67AA74FF528313EDA55D386F /* seed-mixed-switch.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "seed-mixed-switch.json"; sourceTree = "<group>"; };
+		6844ECA2E7764C29E03DE457 /* DosePhaseMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DosePhaseMath.swift; sourceTree = "<group>"; };
+		68F101883743096193C765B8 /* ShareCardPhotoLibrarySaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCardPhotoLibrarySaver.swift; sourceTree = "<group>"; };
+		6A924FB407304411498A9282 /* InjectionReminderPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectionReminderPermission.swift; sourceTree = "<group>"; };
+		6DAE4B0CD11C6CDFA78130E3 /* MarketingScreenshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketingScreenshotTests.swift; sourceTree = "<group>"; };
+		6E89E1E02F11A1389D678F1D /* SurfaceNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfaceNavigation.swift; sourceTree = "<group>"; };
+		6F26FC498397D8A7DC226083 /* InjectionLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectionLiveActivity.swift; sourceTree = "<group>"; };
+		715CCEA35014CA24F1E73D23 /* GauravaScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauravaScreen.swift; sourceTree = "<group>"; };
+		7215688E0C2B894242A5B853 /* GlanceDisplayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceDisplayModel.swift; sourceTree = "<group>"; };
+		7249A1DA68F3A1416C3EB6C8 /* SideEffectBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideEffectBoard.swift; sourceTree = "<group>"; };
+		73BD1CF91706F36C8AD001C0 /* LocalizationPhase0SymbolProof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationPhase0SymbolProof.swift; sourceTree = "<group>"; };
+		743EFCDD66AD81DEA8B1B556 /* Gaurava.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Gaurava.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DDE73965EC975575F0D96C /* FirstRunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRunUITests.swift; sourceTree = "<group>"; };
+		791FEB6CA60F5006D2924936 /* TreatmentFormComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentFormComponents.swift; sourceTree = "<group>"; };
+		79B17EE68EC3ACA2F655FD51 /* GauravaWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GauravaWidgets.entitlements; sourceTree = "<group>"; };
+		7A19BBA8302A3D8B71AD6BA8 /* DosePhaseMathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DosePhaseMathTests.swift; sourceTree = "<group>"; };
+		7B0384CDC2C1141737DA78D1 /* GauravaSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauravaSurface.swift; sourceTree = "<group>"; };
+		7B88131592BDE4229D79894F /* SurfacePreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfacePreferences.swift; sourceTree = "<group>"; };
+		7BCC40468D9A5742744108B4 /* GauravaWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = GauravaWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C88233FD5D6F5B8DE7AED65 /* WatchConnectivityCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityCoordinator.swift; sourceTree = "<group>"; };
+		7DA74C05AC9FE46FC3896F7C /* HealthKitWeightImportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitWeightImportTests.swift; sourceTree = "<group>"; };
+		7EA03AFE8D903A93F3CA84BE /* GauravaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauravaUITests.swift; sourceTree = "<group>"; };
+		7FA660C61CDFBE1D5A2AFE0E /* InjectionReminderScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectionReminderScheduler.swift; sourceTree = "<group>"; };
+		807D881EF0FF5EC500459D97 /* Info.OnboardingSandbox.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.OnboardingSandbox.plist; sourceTree = "<group>"; };
+		81912F2DBA624788EF582B9C /* InjectionReminderSchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectionReminderSchedulerTests.swift; sourceTree = "<group>"; };
+		8615B2D0C29DC205EACAD380 /* GauravaWatchWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GauravaWatchWidgets.entitlements; sourceTree = "<group>"; };
+		87A81B5B644AB9DA7EE7DDF0 /* ProvisionalCardLocalizationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvisionalCardLocalizationUITests.swift; sourceTree = "<group>"; };
+		8A78EB4966EE6C22483761EA /* Build0RefactorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Build0RefactorTests.swift; sourceTree = "<group>"; };
+		8B8A25C6A87E1ECA2DA86851 /* InjectionActivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectionActivityController.swift; sourceTree = "<group>"; };
+		8C1247F32EF8667D96B291A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CCE1CA0665B88F90F1DF86A /* GauravaGlanceSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauravaGlanceSnapshot.swift; sourceTree = "<group>"; };
+		8F5C05F9A53B248FD1567CD2 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = wrapper.icon; path = AppIcon.icon; sourceTree = "<group>"; };
+		917A058BF764D884C85D62FA /* SeedImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedImporter.swift; sourceTree = "<group>"; };
+		94798B65B811987649F116C1 /* WatchSnapshotPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSnapshotPublisher.swift; sourceTree = "<group>"; };
+		983D01A894214807D58213A7 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		99D0F5969D972BD631055A95 /* LiveActivityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityUITests.swift; sourceTree = "<group>"; };
+		9A16769B729B248569FA0D1E /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		9A89D572B9FD8A01C8F5C8BF /* WatchRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRootView.swift; sourceTree = "<group>"; };
+		9B87EF584CC5E08AA6CFBA8F /* InjectionActivityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectionActivityTests.swift; sourceTree = "<group>"; };
+		9B92E9A375B1A8134ED942BB /* GauravaWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauravaWatchApp.swift; sourceTree = "<group>"; };
+		9F4B00E0DB4EA838C332773E /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		9F5E32EB966AFB621C8721DD /* GlanceSurfaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceSurfaceTests.swift; sourceTree = "<group>"; };
+		9F6574F53FA6DCE882C4A4ED /* SemaglutideVerificationScreenshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemaglutideVerificationScreenshotTests.swift; sourceTree = "<group>"; };
+		A174A73532CA8AC8BE06DAF2 /* LocalizationPhase0SymbolProof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationPhase0SymbolProof.swift; sourceTree = "<group>"; };
+		A32446653D457C47A562384F /* ShareJourneyComposerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareJourneyComposerSheet.swift; sourceTree = "<group>"; };
+		A6448B69857F313FA1F562D2 /* GauravaWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauravaWidgetsBundle.swift; sourceTree = "<group>"; };
+		A66E33CA30E7780E9AD8C1F0 /* GauravaSurfaceSnapshots.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = GauravaSurfaceSnapshots.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA83223F040547FA84E1D19A /* ShareJourneyCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareJourneyCardView.swift; sourceTree = "<group>"; };
+		B3C28B592E628F4664E68A11 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		B675650108B9DDED9D0B76BD /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		B97154E4020BCAD539B4BE91 /* TreatmentScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentScheduleTests.swift; sourceTree = "<group>"; };
+		C09A453A33957BF8F95A2432 /* AppIntentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntentTests.swift; sourceTree = "<group>"; };
+		C1F0BF0A96070DB4DC8B26C1 /* GauravaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauravaApp.swift; sourceTree = "<group>"; };
+		C2D879D152B93075D6115B74 /* Medication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
+		C7F4F19B5B329E30634020F8 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		C96B99593E96C84AD8EB752B /* ClinicianExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinicianExport.swift; sourceTree = "<group>"; };
+		C99F2F09FFB2AD341728A200 /* LocalizedScreenshotAuditUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedScreenshotAuditUITests.swift; sourceTree = "<group>"; };
+		CA30A5EF040A5354D3FC6A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CA883475D0A54106F0709104 /* LocalizationPhase0SymbolProof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationPhase0SymbolProof.swift; sourceTree = "<group>"; };
+		CB092D45FD3F67E724C3136F /* TestStateSeedLaunchHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStateSeedLaunchHandler.swift; sourceTree = "<group>"; };
+		CBD95CD1D59E5D28C63CEBD1 /* SurfaceSnapshotStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfaceSnapshotStore.swift; sourceTree = "<group>"; };
+		CD12FF1F2BAA0C3F992B1968 /* glance-snapshot-v1-phrase-only.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "glance-snapshot-v1-phrase-only.json"; sourceTree = "<group>"; };
+		CD53096152D2DA0BA854567D /* Gaurava.Release.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gaurava.Release.entitlements; sourceTree = "<group>"; };
+		CD94CC52E94CC071AA392895 /* LocalizationPhase0SymbolProof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationPhase0SymbolProof.swift; sourceTree = "<group>"; };
+		D0A2C6AE6C40A28722CD30B0 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		D1A8EA1D96C3574548BC0636 /* GlanceProjectionBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceProjectionBuilder.swift; sourceTree = "<group>"; };
+		D1C9EEECE4DDAFB3EBE25B16 /* GlanceDisplayModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceDisplayModelTests.swift; sourceTree = "<group>"; };
+		D4800AE13F7949F9D38A2E2A /* AdaptiveStatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveStatesTests.swift; sourceTree = "<group>"; };
+		D4B26AC7104788E752C92923 /* ModelContainerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelContainerFactory.swift; sourceTree = "<group>"; };
+		D4F2BE8919981D6B8EE0B380 /* WidgetTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTheme.swift; sourceTree = "<group>"; };
+		D584D0D90BA698000752FDF3 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		D5C490249BB50D613DD8DBD7 /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
+		D9028FB1340C8D51099FA046 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		DD27529CBADCA51CBC9D394C /* QuickAddBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAddBarUITests.swift; sourceTree = "<group>"; };
+		DD35B512CA227D1ADAB3D410 /* RemoteChangeRepublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteChangeRepublisher.swift; sourceTree = "<group>"; };
+		DEF6916C401F6736BB3C08B5 /* InjectionActivityProjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectionActivityProjection.swift; sourceTree = "<group>"; };
+		E0B6543E97EF1F4DB35E5D3B /* PrivateOwnerSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateOwnerSeed.swift; sourceTree = "<group>"; };
+		E1F8A320404DB4601B27C069 /* HealthKitWeightImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitWeightImporter.swift; sourceTree = "<group>"; };
+		E3C072A725314C472F513184 /* GauravaWatchWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GauravaWatchWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A7C9AAA6BA7DAD918F945B /* seed-tirzepatide.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "seed-tirzepatide.json"; sourceTree = "<group>"; };
+		EA5C4CE9B6F58CB8614B6EB2 /* ThemePaletteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePaletteTests.swift; sourceTree = "<group>"; };
+		EF7C08CD2F82C677EB49D110 /* AppStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyle.swift; sourceTree = "<group>"; };
+		EF97C79EE9EC3A3DE047EFE9 /* GauravaWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GauravaWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1B4F5E1824B7B0628C5FCD5 /* ModelWriteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelWriteService.swift; sourceTree = "<group>"; };
+		F296992C35D92CF911553CDF /* TrackerModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerModels.swift; sourceTree = "<group>"; };
+		F312CC3C53F3EDC75612AB3A /* InjectionReminderPlanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectionReminderPlanTests.swift; sourceTree = "<group>"; };
+		F3CB9A7062D808CDFCA8EDB1 /* GauravaBrandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauravaBrandMark.swift; sourceTree = "<group>"; };
+		F548EA7B16F620EA552FEBC5 /* LocalizationSmokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationSmokeUITests.swift; sourceTree = "<group>"; };
+		F7885578E1B57D6E74D234B1 /* InjectionSiteRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectionSiteRotation.swift; sourceTree = "<group>"; };
+		F8B8D1531D1832EEB50A7A72 /* TreatmentMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentMath.swift; sourceTree = "<group>"; };
+		F910D52F3403E7011CEA0F49 /* WatchTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTheme.swift; sourceTree = "<group>"; };
+		FB32AA5081AC289E4BD1AFD6 /* OpenScreenIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenScreenIntents.swift; sourceTree = "<group>"; };
+		FB803447FB132BD2AD7D2DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FF08C31EDF7F66C2EB33C5D6 /* SeedImportPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedImportPayload.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		005016A79B027BDA11703B0B /* Sharing */ = {
+			isa = PBXGroup;
+			children = (
+				C96B99593E96C84AD8EB752B /* ClinicianExport.swift */,
+				65265A12CC1EA5590CB0E0E1 /* ClinicianExportView.swift */,
+				F3CB9A7062D808CDFCA8EDB1 /* GauravaBrandMark.swift */,
+				06481775E4281FA7D4CDD503 /* ShareCardConfiguration.swift */,
+				68F101883743096193C765B8 /* ShareCardPhotoLibrarySaver.swift */,
+				0999F91E989D00C9EB33D680 /* ShareCardRenderer.swift */,
+				29482DE95FCDC2EDB7643BF0 /* ShareCardSnapshot.swift */,
+				AA83223F040547FA84E1D19A /* ShareJourneyCardView.swift */,
+				A32446653D457C47A562384F /* ShareJourneyComposerSheet.swift */,
+				5643B52A3B0A66D6788D9ED8 /* ShareWeightTrendChart.swift */,
+			);
+			path = Sharing;
+			sourceTree = "<group>";
+		};
+		041D7116E0124009AEAA835C = {
+			isa = PBXGroup;
+			children = (
+				4C00830950E147F3010BAB9E /* Gaurava */,
+				1DBCBC922F230686567C1632 /* GauravaSurfaceSnapshots */,
+				3A09C3BE540CF8D070F97DE6 /* GauravaTests */,
+				ACBF82E66611078CF81D09E2 /* GauravaUITests */,
+				55537491E86D51E7BFAA38D9 /* GauravaWatch */,
+				BE15C3FD55B1C8CE0B635CC8 /* GauravaWatchWidgets */,
+				3A11C35881836D2DC64FBA66 /* GauravaWidgets */,
+				385BF178FFE84DE4CF8B4C8A /* Localization */,
+				FFD151537A8A69DF37AD5730 /* Localization */,
+				DFE662B31D0737D832DE472E /* Localization */,
+				88F6082D51BF3D085A30AD79 /* Localization */,
+				79444576B55764C030F84086 /* Localization */,
+				73CC50C9173A785D79B0DE2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07A79D583FBA0061AF0D97A4 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				D4B26AC7104788E752C92923 /* ModelContainerFactory.swift */,
+				F1B4F5E1824B7B0628C5FCD5 /* ModelWriteService.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		0C379B2405E01483E5152F80 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6844ECA2E7764C29E03DE457 /* DosePhaseMath.swift */,
+				630958406D5813A70C51A0A7 /* InjectionReminderPlan.swift */,
+				F7885578E1B57D6E74D234B1 /* InjectionSiteRotation.swift */,
+				0692A3C09944E169D2867C2E /* LogCapture.swift */,
+				C2D879D152B93075D6115B74 /* Medication.swift */,
+				28C5E5A8C65CF0100BF6D1E0 /* SampleData.swift */,
+				F296992C35D92CF911553CDF /* TrackerModels.swift */,
+				F8B8D1531D1832EEB50A7A72 /* TreatmentMath.swift */,
+				5462FA0D467FF46F8B713C9D /* TreatmentStatus.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0D2C2B6DFAF7B779BE2ABC87 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				025C4DA17CA6B386365323F2 /* AppLanguage.swift */,
+				EF7C08CD2F82C677EB49D110 /* AppStyle.swift */,
+				3E4F1EA4AE4DB209766ACC01 /* ThemePalette.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		135213E3BB5310EA8AA0B164 /* HealthKit */ = {
+			isa = PBXGroup;
+			children = (
+				E1F8A320404DB4601B27C069 /* HealthKitWeightImporter.swift */,
+			);
+			path = HealthKit;
+			sourceTree = "<group>";
+		};
+		1DBCBC922F230686567C1632 /* GauravaSurfaceSnapshots */ = {
+			isa = PBXGroup;
+			children = (
+				2F8AC7573A206E30674DB4BF /* Localizable.xcstrings */,
+				1AB183B8D87214161BE4DDED /* SurfaceSnapshotTests.swift */,
+			);
+			path = GauravaSurfaceSnapshots;
+			sourceTree = "<group>";
+		};
+		2356BD2D424AA93CDA313A9E /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				CD12FF1F2BAA0C3F992B1968 /* glance-snapshot-v1-phrase-only.json */,
+				67AA74FF528313EDA55D386F /* seed-mixed-switch.json */,
+				246F8E4D8054E3C7C4A3FF79 /* seed-semaglutide-titration.json */,
+				E7A7C9AAA6BA7DAD918F945B /* seed-tirzepatide.json */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		385BF178FFE84DE4CF8B4C8A /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				C7F4F19B5B329E30634020F8 /* InfoPlist.xcstrings */,
+				D0A2C6AE6C40A28722CD30B0 /* Localizable.xcstrings */,
+			);
+			name = Localization;
+			path = Gaurava/Resources/Localization;
+			sourceTree = "<group>";
+		};
+		3A09C3BE540CF8D070F97DE6 /* GauravaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4800AE13F7949F9D38A2E2A /* AdaptiveStatesTests.swift */,
+				C09A453A33957BF8F95A2432 /* AppIntentTests.swift */,
+				8A78EB4966EE6C22483761EA /* Build0RefactorTests.swift */,
+				3F8FB3232D2A9CBC2305489B /* DeepLinkRouteTests.swift */,
+				7A19BBA8302A3D8B71AD6BA8 /* DosePhaseMathTests.swift */,
+				27F6B403C7A634816BEEE79B /* GauravaTests.swift */,
+				D1C9EEECE4DDAFB3EBE25B16 /* GlanceDisplayModelTests.swift */,
+				9F5E32EB966AFB621C8721DD /* GlanceSurfaceTests.swift */,
+				7DA74C05AC9FE46FC3896F7C /* HealthKitWeightImportTests.swift */,
+				9B87EF584CC5E08AA6CFBA8F /* InjectionActivityTests.swift */,
+				F312CC3C53F3EDC75612AB3A /* InjectionReminderPlanTests.swift */,
+				81912F2DBA624788EF582B9C /* InjectionReminderSchedulerTests.swift */,
+				0DC47AB43B7F04620BB0C4F1 /* OnboardingDefinitionOfDoneTests.swift */,
+				410D04E0EDE4076F8B499120 /* PrivateOwnerSeed.swift */,
+				EA5C4CE9B6F58CB8614B6EB2 /* ThemePaletteTests.swift */,
+				B97154E4020BCAD539B4BE91 /* TreatmentScheduleTests.swift */,
+				39002D2B5F1D8AAC1BB96338 /* WatchSnapshotTransportTests.swift */,
+				2356BD2D424AA93CDA313A9E /* Fixtures */,
+			);
+			path = GauravaTests;
+			sourceTree = "<group>";
+		};
+		3A11C35881836D2DC64FBA66 /* GauravaWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				2F7D6DE1259C48D690C184C3 /* CareActionsWidget.swift */,
+				542D868FD79ED8E2734175D1 /* CareGlanceWidget.swift */,
+				47AD8AE48FABE79977DE1DDC /* GauravaControls.swift */,
+				79B17EE68EC3ACA2F655FD51 /* GauravaWidgets.entitlements */,
+				A6448B69857F313FA1F562D2 /* GauravaWidgetsBundle.swift */,
+				653CF394CE64B8257A2A14FF /* Info.plist */,
+				6F26FC498397D8A7DC226083 /* InjectionLiveActivity.swift */,
+				73BD1CF91706F36C8AD001C0 /* LocalizationPhase0SymbolProof.swift */,
+				D4F2BE8919981D6B8EE0B380 /* WidgetTheme.swift */,
+			);
+			path = GauravaWidgets;
+			sourceTree = "<group>";
+		};
+		43435234A06F36D16F8EB721 /* Glance */ = {
+			isa = PBXGroup;
+			children = (
+				D1A8EA1D96C3574548BC0636 /* GlanceProjectionBuilder.swift */,
+				2BF4058C1DB67E3DA0F9755A /* GlancePublisher.swift */,
+				DEF6916C401F6736BB3C08B5 /* InjectionActivityProjection.swift */,
+				DD35B512CA227D1ADAB3D410 /* RemoteChangeRepublisher.swift */,
+			);
+			path = Glance;
+			sourceTree = "<group>";
+		};
+		4C00830950E147F3010BAB9E /* Gaurava */ = {
+			isa = PBXGroup;
+			children = (
+				8F5C05F9A53B248FD1567CD2 /* AppIcon.icon */,
+				42B9A2A1F8DA491566B06802 /* Gaurava.entitlements */,
+				CD53096152D2DA0BA854567D /* Gaurava.Release.entitlements */,
+				807D881EF0FF5EC500459D97 /* Info.OnboardingSandbox.plist */,
+				CA30A5EF040A5354D3FC6A7F /* Info.plist */,
+				BB340A2A1984C69951589373 /* App */,
+				56EDD32FB7D4A3FAE6E2C8EB /* AppIntents */,
+				0D2C2B6DFAF7B779BE2ABC87 /* Design */,
+				7CB4056C837CD177C55D1A32 /* Features */,
+				43435234A06F36D16F8EB721 /* Glance */,
+				135213E3BB5310EA8AA0B164 /* HealthKit */,
+				A566522FD0DCE3D5F920D4DF /* Import */,
+				98D4BC847D4668E4CF740652 /* LiveActivity */,
+				CED463E541E5D35F2DBE66DE /* Localization */,
+				0C379B2405E01483E5152F80 /* Models */,
+				89AC3365FE8A149449328D2E /* Notifications */,
+				07A79D583FBA0061AF0D97A4 /* Persistence */,
+				650AF28E542EACCE4ACF1F36 /* Resources */,
+				8055D1C4F3B6E37B3891E027 /* SharedSurfaces */,
+				005016A79B027BDA11703B0B /* Sharing */,
+				E8F93D5BA9E551032CC95E2B /* Watch */,
+			);
+			path = Gaurava;
+			sourceTree = "<group>";
+		};
+		55537491E86D51E7BFAA38D9 /* GauravaWatch */ = {
+			isa = PBXGroup;
+			children = (
+				0E58304FFD7F87BC8806BA32 /* GauravaWatch.entitlements */,
+				9B92E9A375B1A8134ED942BB /* GauravaWatchApp.swift */,
+				FB803447FB132BD2AD7D2DB3 /* Info.plist */,
+				A174A73532CA8AC8BE06DAF2 /* LocalizationPhase0SymbolProof.swift */,
+				5BB504240D9DAF0E0D3A4CF7 /* WatchConnectivityReceiver.swift */,
+				57295A8D8A82F65A3CE14CBC /* WatchGlanceStore.swift */,
+				9A89D572B9FD8A01C8F5C8BF /* WatchRootView.swift */,
+				F910D52F3403E7011CEA0F49 /* WatchTheme.swift */,
+			);
+			path = GauravaWatch;
+			sourceTree = "<group>";
+		};
+		56EDD32FB7D4A3FAE6E2C8EB /* AppIntents */ = {
+			isa = PBXGroup;
+			children = (
+				FB32AA5081AC289E4BD1AFD6 /* OpenScreenIntents.swift */,
+			);
+			path = AppIntents;
+			sourceTree = "<group>";
+		};
+		650AF28E542EACCE4ACF1F36 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C1247F32EF8667D96B291A1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		73CC50C9173A785D79B0DE2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				743EFCDD66AD81DEA8B1B556 /* Gaurava.app */,
+				45D586D039BA1CDE46E5D77C /* GauravaOnboarding.app */,
+				A66E33CA30E7780E9AD8C1F0 /* GauravaSurfaceSnapshots.xctest */,
+				49BFF7E1CE096308EFA4E389 /* GauravaTests.xctest */,
+				58FC63682B3B280ADCADF68E /* GauravaUITests.xctest */,
+				EF97C79EE9EC3A3DE047EFE9 /* GauravaWatch.app */,
+				E3C072A725314C472F513184 /* GauravaWatchWidgets.appex */,
+				7BCC40468D9A5742744108B4 /* GauravaWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79444576B55764C030F84086 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				9F4B00E0DB4EA838C332773E /* InfoPlist.xcstrings */,
+				D9028FB1340C8D51099FA046 /* Localizable.xcstrings */,
+			);
+			name = Localization;
+			path = GauravaWidgets/Resources/Localization;
+			sourceTree = "<group>";
+		};
+		7CB4056C837CD177C55D1A32 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				60B950D57AC20E35E4CA03AE /* FirstRunSetupView.swift */,
+				3E26E623821967AF34212C05 /* GoalWeightRuler.swift */,
+				081932553F1B1321EB5FD0F9 /* JabsView.swift */,
+				B675650108B9DDED9D0B76BD /* LogView.swift */,
+				165D13976F3DFACD456046E1 /* OneGlassMoodQuestion.swift */,
+				1856B01AFE689F62941567A7 /* QuickAddBar.swift */,
+				51618783DCBB0EDDCE0965AE /* ResultsView.swift */,
+				36DF09658023D6063AD6E4D1 /* SettingsView.swift */,
+				7249A1DA68F3A1416C3EB6C8 /* SideEffectBoard.swift */,
+				D584D0D90BA698000752FDF3 /* SummaryView.swift */,
+				791FEB6CA60F5006D2924936 /* TreatmentFormComponents.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		8055D1C4F3B6E37B3891E027 /* SharedSurfaces */ = {
+			isa = PBXGroup;
+			children = (
+				8CCE1CA0665B88F90F1DF86A /* GauravaGlanceSnapshot.swift */,
+				020BB5CF57476054AC08F55D /* GauravaInjectionActivity.swift */,
+				715CCEA35014CA24F1E73D23 /* GauravaScreen.swift */,
+				7B0384CDC2C1141737DA78D1 /* GauravaSurface.swift */,
+				7215688E0C2B894242A5B853 /* GlanceDisplayModel.swift */,
+				0D320CE09EB0C44BE8670507 /* SharedThemeTokens.swift */,
+				6E89E1E02F11A1389D678F1D /* SurfaceNavigation.swift */,
+				7B88131592BDE4229D79894F /* SurfacePreferences.swift */,
+				CBD95CD1D59E5D28C63CEBD1 /* SurfaceSnapshotStore.swift */,
+			);
+			path = SharedSurfaces;
+			sourceTree = "<group>";
+		};
+		88F6082D51BF3D085A30AD79 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				9A16769B729B248569FA0D1E /* InfoPlist.xcstrings */,
+				983D01A894214807D58213A7 /* Localizable.xcstrings */,
+			);
+			name = Localization;
+			path = GauravaWatchWidgets/Resources/Localization;
+			sourceTree = "<group>";
+		};
+		89AC3365FE8A149449328D2E /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				6A924FB407304411498A9282 /* InjectionReminderPermission.swift */,
+				7FA660C61CDFBE1D5A2AFE0E /* InjectionReminderScheduler.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		98D4BC847D4668E4CF740652 /* LiveActivity */ = {
+			isa = PBXGroup;
+			children = (
+				8B8A25C6A87E1ECA2DA86851 /* InjectionActivityController.swift */,
+				4F72AC9215718C7F4443C1AC /* InjectionActivityPublisher.swift */,
+			);
+			path = LiveActivity;
+			sourceTree = "<group>";
+		};
+		A566522FD0DCE3D5F920D4DF /* Import */ = {
+			isa = PBXGroup;
+			children = (
+				35661DC0686A5DFAE6054644 /* OwnerSeedImportLaunchHandler.swift */,
+				917A058BF764D884C85D62FA /* SeedImporter.swift */,
+				FF08C31EDF7F66C2EB33C5D6 /* SeedImportPayload.swift */,
+				CB092D45FD3F67E724C3136F /* TestStateSeedLaunchHandler.swift */,
+			);
+			path = Import;
+			sourceTree = "<group>";
+		};
+		ACBF82E66611078CF81D09E2 /* GauravaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FB12C1BD01F2B14F999EA3B /* AdaptiveStatesMatrixUITests.swift */,
+				65C950D44D360B9FAA4C4E84 /* DeepLinkPrivacyUITests.swift */,
+				74DDE73965EC975575F0D96C /* FirstRunUITests.swift */,
+				7EA03AFE8D903A93F3CA84BE /* GauravaUITests.swift */,
+				99D0F5969D972BD631055A95 /* LiveActivityUITests.swift */,
+				F548EA7B16F620EA552FEBC5 /* LocalizationSmokeUITests.swift */,
+				C99F2F09FFB2AD341728A200 /* LocalizedScreenshotAuditUITests.swift */,
+				6DAE4B0CD11C6CDFA78130E3 /* MarketingScreenshotTests.swift */,
+				369488E7421B71C69C98EDD3 /* MedicationSelectionUITests.swift */,
+				E0B6543E97EF1F4DB35E5D3B /* PrivateOwnerSeed.swift */,
+				87A81B5B644AB9DA7EE7DDF0 /* ProvisionalCardLocalizationUITests.swift */,
+				DD27529CBADCA51CBC9D394C /* QuickAddBarUITests.swift */,
+				9F6574F53FA6DCE882C4A4ED /* SemaglutideVerificationScreenshotTests.swift */,
+				261AAEE941931C33B0650FA8 /* TabBarMinimizeUITests.swift */,
+				08FEA9BA79D6EFACA1158E10 /* UITestTabHelpers.swift */,
+			);
+			path = GauravaUITests;
+			sourceTree = "<group>";
+		};
+		BB340A2A1984C69951589373 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D5C490249BB50D613DD8DBD7 /* AppRootView.swift */,
+				3DB62A7755BF17D278100A35 /* DeepLinkRoute.swift */,
+				C1F0BF0A96070DB4DC8B26C1 /* GauravaApp.swift */,
+				5542B0651C651E81441920AC /* GauravaAppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BE15C3FD55B1C8CE0B635CC8 /* GauravaWatchWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				8615B2D0C29DC205EACAD380 /* GauravaWatchWidgets.entitlements */,
+				4182F24DBB448F1405A7F2E0 /* GauravaWatchWidgetsBundle.swift */,
+				21EFA1E05AC3BA59BB8D4966 /* Info.plist */,
+				CA883475D0A54106F0709104 /* LocalizationPhase0SymbolProof.swift */,
+			);
+			path = GauravaWatchWidgets;
+			sourceTree = "<group>";
+		};
+		CED463E541E5D35F2DBE66DE /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				CD94CC52E94CC071AA392895 /* LocalizationPhase0SymbolProof.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		DFE662B31D0737D832DE472E /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				20667D028EA4CB08EE080667 /* InfoPlist.xcstrings */,
+				B3C28B592E628F4664E68A11 /* Localizable.xcstrings */,
+			);
+			name = Localization;
+			path = GauravaWatch/Resources/Localization;
+			sourceTree = "<group>";
+		};
+		E8F93D5BA9E551032CC95E2B /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				7C88233FD5D6F5B8DE7AED65 /* WatchConnectivityCoordinator.swift */,
+				3D0DC586BB673729C4A9A2F7 /* WatchConnectivitySnapshotStore.swift */,
+				94798B65B811987649F116C1 /* WatchSnapshotPublisher.swift */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		FFD151537A8A69DF37AD5730 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				36F3BA9F721CADFD556022CF /* InfoPlist.xcstrings */,
+			);
+			name = Localization;
+			path = GauravaOnboarding/Resources/Localization;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1693144FC30F5A5328FD816C /* GauravaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F0E247829556C7941D1201 /* Build configuration list for PBXNativeTarget "GauravaUITests" */;
+			buildPhases = (
+				B48EE9168E327B290A79880F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0584EFC489AC05433512CA59 /* PBXTargetDependency */,
+			);
+			name = GauravaUITests;
+			packageProductDependencies = (
+			);
+			productName = GauravaUITests;
+			productReference = 58FC63682B3B280ADCADF68E /* GauravaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		18C877F694AC18640CEE6B23 /* GauravaSurfaceSnapshots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0064321DE09A302E3151060F /* Build configuration list for PBXNativeTarget "GauravaSurfaceSnapshots" */;
+			buildPhases = (
+				9F9BBF95E4901380751B0058 /* Sources */,
+				7A4F9E1AB82F4C843CDD7B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GauravaSurfaceSnapshots;
+			packageProductDependencies = (
+			);
+			productName = GauravaSurfaceSnapshots;
+			productReference = A66E33CA30E7780E9AD8C1F0 /* GauravaSurfaceSnapshots.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A59DB920B7A4C7072AF8953 /* GauravaWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 283BCC127BFE75C9B4840314 /* Build configuration list for PBXNativeTarget "GauravaWatch" */;
+			buildPhases = (
+				65336A39FFB89784234D6746 /* Sources */,
+				1047AE96F378B2AF4A075284 /* Resources */,
+				5EC36E3A78340A8514347224 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				397EAB4A6016BBD4AC2CD551 /* PBXTargetDependency */,
+			);
+			name = GauravaWatch;
+			packageProductDependencies = (
+			);
+			productName = GauravaWatch;
+			productReference = EF97C79EE9EC3A3DE047EFE9 /* GauravaWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB661B62D9D8FE73235205B7 /* GauravaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D810886B48A8DBD663656A4 /* Build configuration list for PBXNativeTarget "GauravaTests" */;
+			buildPhases = (
+				FFAF37329DC5D86EAA082196 /* Sources */,
+				9A9E54B4F59F2AF69134A624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0CA07B673AF182ECF6FA7A2 /* PBXTargetDependency */,
+			);
+			name = GauravaTests;
+			packageProductDependencies = (
+			);
+			productName = GauravaTests;
+			productReference = 49BFF7E1CE096308EFA4E389 /* GauravaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3B7A86C2F9F60F2983AECC7 /* GauravaWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C1D578164D79E6C602C7F7 /* Build configuration list for PBXNativeTarget "GauravaWidgets" */;
+			buildPhases = (
+				CC28CFC972FF5C80266FF7B7 /* Sources */,
+				27FE465A2E5C08A9893DEB96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GauravaWidgets;
+			packageProductDependencies = (
+			);
+			productName = GauravaWidgets;
+			productReference = 7BCC40468D9A5742744108B4 /* GauravaWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		BC2DCA6030FD7F6EF2390755 /* Gaurava */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62845A49E6E881FB9A3EC03C /* Build configuration list for PBXNativeTarget "Gaurava" */;
+			buildPhases = (
+				CEC207DC12FFB84EEDBCAE16 /* Sources */,
+				A7AFE807AE8B8A63A0D5489E /* Resources */,
+				A2C139D96D49CDF63C3F6616 /* Embed Foundation Extensions */,
+				E48054BD38A39E3F6D39DA3A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8E4445C10ECA28E67477DA2 /* PBXTargetDependency */,
+				BDA95F1CDF004FE0D32C2CCE /* PBXTargetDependency */,
+			);
+			name = Gaurava;
+			packageProductDependencies = (
+			);
+			productName = Gaurava;
+			productReference = 743EFCDD66AD81DEA8B1B556 /* Gaurava.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAA3299E38BD3F24449C393F /* GauravaWatchWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4446010061E21165D5FCD5C4 /* Build configuration list for PBXNativeTarget "GauravaWatchWidgets" */;
+			buildPhases = (
+				19BD6E382549A22448F673D9 /* Sources */,
+				C053D0EE19D79AA0C2676F6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GauravaWatchWidgets;
+			packageProductDependencies = (
+			);
+			productName = GauravaWatchWidgets;
+			productReference = E3C072A725314C472F513184 /* GauravaWatchWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CB16D3D0570E8DEF37AF4718 /* GauravaOnboarding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F70FBC52C1051FB54CEB42E /* Build configuration list for PBXNativeTarget "GauravaOnboarding" */;
+			buildPhases = (
+				12AE2D957A8733D17996903E /* Sources */,
+				4088FDD44CD43E97B00B2531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GauravaOnboarding;
+			packageProductDependencies = (
+			);
+			productName = GauravaOnboarding;
+			productReference = 45D586D039BA1CDE46E5D77C /* GauravaOnboarding.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED5D267BE3E784044E4A866E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1693144FC30F5A5328FD816C = {
+						DevelopmentTeam = "";
+						TestTargetID = BC2DCA6030FD7F6EF2390755;
+					};
+					18C877F694AC18640CEE6B23 = {
+						DevelopmentTeam = "";
+					};
+					9A59DB920B7A4C7072AF8953 = {
+						DevelopmentTeam = "";
+					};
+					AB661B62D9D8FE73235205B7 = {
+						DevelopmentTeam = "";
+					};
+					B3B7A86C2F9F60F2983AECC7 = {
+						DevelopmentTeam = "";
+					};
+					BC2DCA6030FD7F6EF2390755 = {
+						DevelopmentTeam = "";
+					};
+					CAA3299E38BD3F24449C393F = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 2B7D419522A5EE6B3E46E16C /* Build configuration list for PBXProject "Gaurava" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				hi,
+				ta,
+				te,
+			);
+			mainGroup = 041D7116E0124009AEAA835C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 73CC50C9173A785D79B0DE2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC2DCA6030FD7F6EF2390755 /* Gaurava */,
+				CB16D3D0570E8DEF37AF4718 /* GauravaOnboarding */,
+				18C877F694AC18640CEE6B23 /* GauravaSurfaceSnapshots */,
+				AB661B62D9D8FE73235205B7 /* GauravaTests */,
+				1693144FC30F5A5328FD816C /* GauravaUITests */,
+				9A59DB920B7A4C7072AF8953 /* GauravaWatch */,
+				CAA3299E38BD3F24449C393F /* GauravaWatchWidgets */,
+				B3B7A86C2F9F60F2983AECC7 /* GauravaWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1047AE96F378B2AF4A075284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E489E49745B404509B332F /* AppIcon.icon in Resources */,
+				5BDBD66D9D4F8359F8F823A7 /* InfoPlist.xcstrings in Resources */,
+				76C95C3AAEA3B9DDBCC8CC59 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FE465A2E5C08A9893DEB96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6637E49063CDF3FAC44F3394 /* InfoPlist.xcstrings in Resources */,
+				AE2AE3CDC9415B3E47E65A90 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4088FDD44CD43E97B00B2531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B43944024E273D2F522AEC1 /* AppIcon.icon in Resources */,
+				8E0F9FEFAE4BBAABA3CE0588 /* Assets.xcassets in Resources */,
+				6BAEACD7A587A16823A4A1CC /* InfoPlist.xcstrings in Resources */,
+				0AB6FCDA75486DA1497CD2FE /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4F9E1AB82F4C843CDD7B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C6483C1EEF26A99F904C79 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9E54B4F59F2AF69134A624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7621911179E96F3DB859A720 /* glance-snapshot-v1-phrase-only.json in Resources */,
+				18D19234F054129B744CFE41 /* seed-mixed-switch.json in Resources */,
+				A7C97E586FB4580196889CC8 /* seed-semaglutide-titration.json in Resources */,
+				83B6096B21BCF4EB14F44F29 /* seed-tirzepatide.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AFE807AE8B8A63A0D5489E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1716FDCDA3D9CD73065DB82 /* AppIcon.icon in Resources */,
+				FBB7F4EB2FBE08494859D617 /* Assets.xcassets in Resources */,
+				C8C800331432C581B6B285C6 /* InfoPlist.xcstrings in Resources */,
+				951E31A9B7BDE8402722737A /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C053D0EE19D79AA0C2676F6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F75A357049C2725C7652134 /* InfoPlist.xcstrings in Resources */,
+				93C81E98E10E78C49574F06F /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12AE2D957A8733D17996903E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6850ADE807131E35C0340F7F /* AppLanguage.swift in Sources */,
+				A35809975D8B7B4AE7009654 /* AppRootView.swift in Sources */,
+				AA99267EDFEA059069F911AC /* AppStyle.swift in Sources */,
+				3D68BDFB4D645B1301B27034 /* ClinicianExport.swift in Sources */,
+				0CBFB199252151B11C7336C6 /* ClinicianExportView.swift in Sources */,
+				4B509B2657655817E7B9608A /* DeepLinkRoute.swift in Sources */,
+				182F58206C2E7BDAA3E9CDFA /* DosePhaseMath.swift in Sources */,
+				0CEB5F832DB94BCCBB74AD46 /* FirstRunSetupView.swift in Sources */,
+				43A30483EC0C866411DF41FE /* GauravaApp.swift in Sources */,
+				98EAC7FCFB1400A863783983 /* GauravaAppDelegate.swift in Sources */,
+				1794CB0B62F54D820D467C6F /* GauravaBrandMark.swift in Sources */,
+				9FC56F9F77F58BE9516FB941 /* GauravaGlanceSnapshot.swift in Sources */,
+				35EDC4C2BCC7CD2386D5F8AB /* GauravaInjectionActivity.swift in Sources */,
+				7A57A3A55270FD54426E880D /* GauravaScreen.swift in Sources */,
+				24E4CC61DB39012A3A673F5F /* GauravaSurface.swift in Sources */,
+				1A7E3BFD49C6C90373400151 /* GlanceDisplayModel.swift in Sources */,
+				525CD8F52977B3231E87765B /* GlanceProjectionBuilder.swift in Sources */,
+				21E07DF3F9A7FA85D5EE9FE5 /* GlancePublisher.swift in Sources */,
+				FE6ED21BD9BB3ECDBAF827B3 /* GoalWeightRuler.swift in Sources */,
+				B6BE6F8C22F5446D280C4DE8 /* HealthKitWeightImporter.swift in Sources */,
+				E72E162EDF1EB9727CF15BA4 /* InjectionActivityController.swift in Sources */,
+				E67E338C3EF4390FD1953BAC /* InjectionActivityProjection.swift in Sources */,
+				1A0D2EBB508D8867D01A5A83 /* InjectionActivityPublisher.swift in Sources */,
+				A27C4BB7326107FEB960796E /* InjectionReminderPermission.swift in Sources */,
+				6D4DF3A8E3CD788DE23FE6CF /* InjectionReminderPlan.swift in Sources */,
+				889FD716136A69A71A7AC98A /* InjectionReminderScheduler.swift in Sources */,
+				8529DB2CCD3CE4B48414797D /* InjectionSiteRotation.swift in Sources */,
+				72682F24E29E6026ED18B3E0 /* JabsView.swift in Sources */,
+				1C63072F3FAE2929FC097C84 /* LocalizationPhase0SymbolProof.swift in Sources */,
+				A30F77CB23468842C4B33122 /* LogCapture.swift in Sources */,
+				57A0B033D16CE04C9C321C9A /* LogView.swift in Sources */,
+				45E4C0D9C9C89158A17CF938 /* Medication.swift in Sources */,
+				A8E2020E81012BC0737A3D34 /* ModelContainerFactory.swift in Sources */,
+				E47668E9EB3850D8D0C634C7 /* ModelWriteService.swift in Sources */,
+				F11DF51BDD9A4BA5EB04CFF6 /* OneGlassMoodQuestion.swift in Sources */,
+				33AD7B08FB13CC8CD2A1221F /* OpenScreenIntents.swift in Sources */,
+				040F7FDBBF0A101819DCFA86 /* OwnerSeedImportLaunchHandler.swift in Sources */,
+				1E67F3B339552A9CD4B8615B /* QuickAddBar.swift in Sources */,
+				0C914E34DE6E67E2C9CD6E3C /* RemoteChangeRepublisher.swift in Sources */,
+				1F3F4397B68BC197A8687CDA /* ResultsView.swift in Sources */,
+				371D7A6B2C5F0CEE264490AC /* SampleData.swift in Sources */,
+				DFCDF6DA3A3A122A727F313F /* SeedImportPayload.swift in Sources */,
+				49B523E1E6961CC4DA35B96F /* SeedImporter.swift in Sources */,
+				2B2580EB44E55A0A092ABA99 /* SettingsView.swift in Sources */,
+				98910849E47DA3957BC27148 /* ShareCardConfiguration.swift in Sources */,
+				EC13C1D2E90940E26DC0E133 /* ShareCardPhotoLibrarySaver.swift in Sources */,
+				3DE45F15CE7E8A0636508390 /* ShareCardRenderer.swift in Sources */,
+				25047FCCDAE0AA58157997EF /* ShareCardSnapshot.swift in Sources */,
+				3E59EF2F29D3FFDCA40BBC3C /* ShareJourneyCardView.swift in Sources */,
+				8F96E9E01DEE1EF988DBBB43 /* ShareJourneyComposerSheet.swift in Sources */,
+				68AB822C13AB4A7EA0ADCC62 /* ShareWeightTrendChart.swift in Sources */,
+				F2465FC039FBD9411A83997B /* SharedThemeTokens.swift in Sources */,
+				544AC2B534F725D4EA70F71F /* SideEffectBoard.swift in Sources */,
+				7F977BCBBD95F0788EB057A6 /* SummaryView.swift in Sources */,
+				3BBD21B9F79351496F6F52F4 /* SurfaceNavigation.swift in Sources */,
+				B5D324C45F880877026603D7 /* SurfacePreferences.swift in Sources */,
+				196C03EBE7B5E95003BBDCC2 /* SurfaceSnapshotStore.swift in Sources */,
+				B7211C22A91F98234D97DF4D /* TestStateSeedLaunchHandler.swift in Sources */,
+				F5435FD59E4AFB42BD699A5E /* ThemePalette.swift in Sources */,
+				3C12D2B64A438CD3500C7E1E /* TrackerModels.swift in Sources */,
+				DF47C6C6EBF643EA374AE649 /* TreatmentFormComponents.swift in Sources */,
+				D994CF7C3BCEC46A02734529 /* TreatmentMath.swift in Sources */,
+				76A1F0EF28C0E0C5B8C97F03 /* TreatmentStatus.swift in Sources */,
+				6E4B56F4CE602EC59617E89D /* WatchConnectivityCoordinator.swift in Sources */,
+				A975274D4FED175015021EA6 /* WatchConnectivitySnapshotStore.swift in Sources */,
+				25042395AD219BC781FC233B /* WatchSnapshotPublisher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19BD6E382549A22448F673D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398B57485A0B6E238529C462 /* GauravaGlanceSnapshot.swift in Sources */,
+				667CB7651350439B7571F69A /* GauravaSurface.swift in Sources */,
+				975A6A278C03831B8EE923AB /* GauravaWatchWidgetsBundle.swift in Sources */,
+				01D3A2E36C5951B259170741 /* GlanceDisplayModel.swift in Sources */,
+				0CA376B04A090F9608524FE4 /* LocalizationPhase0SymbolProof.swift in Sources */,
+				1DA081E1766E5DF53F8C2AE2 /* SharedThemeTokens.swift in Sources */,
+				72C49165C4D7D379C979AC7F /* SurfaceSnapshotStore.swift in Sources */,
+				C1ACDEBED002B154C1D90C9E /* WatchTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65336A39FFB89784234D6746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E939FE94F1F0E42F454CE9 /* GauravaGlanceSnapshot.swift in Sources */,
+				0BCB47A6855B10268899B4AD /* GauravaSurface.swift in Sources */,
+				5C4C952D54F775878EE863CA /* GauravaWatchApp.swift in Sources */,
+				A477B27C4EDE5559909D8E00 /* GlanceDisplayModel.swift in Sources */,
+				18199F7962AAA77DD6A38618 /* LocalizationPhase0SymbolProof.swift in Sources */,
+				F02091630783066D2E63C564 /* SharedThemeTokens.swift in Sources */,
+				C8CED1A66ADF37A909D2EAEF /* SurfaceSnapshotStore.swift in Sources */,
+				01913366F059E3AC1196DF7C /* WatchConnectivityReceiver.swift in Sources */,
+				C3A4561DDA54822EC96B190C /* WatchGlanceStore.swift in Sources */,
+				D9166B336C0F5EDDD4E2578F /* WatchRootView.swift in Sources */,
+				941C2CC3D1396418441BFC87 /* WatchTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9BBF95E4901380751B0058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD7D38135BB068D9C7603BD /* AppLanguage.swift in Sources */,
+				8B08C6A52D928CA8C621F968 /* AppStyle.swift in Sources */,
+				E11A8BD677668A313CD37971 /* CareActionsWidget.swift in Sources */,
+				9D63756FBCDE9592C3B838AF /* CareGlanceWidget.swift in Sources */,
+				B711CBD07DB6892E9277E2AD /* GauravaBrandMark.swift in Sources */,
+				28FC04CA6332C50FD0B0AE90 /* GauravaGlanceSnapshot.swift in Sources */,
+				5A502186BC068214E00B287A /* GauravaScreen.swift in Sources */,
+				8AD3EC0BC37BB04BC7646ABC /* GauravaSurface.swift in Sources */,
+				30F34FE96DAB9FE78FED3654 /* GlanceDisplayModel.swift in Sources */,
+				1D7DB151CA42357DF7F42227 /* Medication.swift in Sources */,
+				51C622DCB5CA000DD24910E8 /* ShareCardConfiguration.swift in Sources */,
+				D33E51E88F9B3F8380FE3ADC /* ShareCardSnapshot.swift in Sources */,
+				DEE9292C03598DB0D88C3A3D /* ShareJourneyCardView.swift in Sources */,
+				69710C016124D055F69422AE /* ShareWeightTrendChart.swift in Sources */,
+				0B55863AB7584A73D16BB770 /* SharedThemeTokens.swift in Sources */,
+				D7B90F2FA1B030D5E6146905 /* SurfaceSnapshotStore.swift in Sources */,
+				CCC313FB2617A7E9687CBA34 /* SurfaceSnapshotTests.swift in Sources */,
+				BE7E4F363E05C9C7E17E0CE5 /* ThemePalette.swift in Sources */,
+				4ECB2FFCA9491FD9139F1528 /* WatchGlanceStore.swift in Sources */,
+				F9F53AA977DEB5EE34151E80 /* WatchRootView.swift in Sources */,
+				9CBB0F256858944BB3E89F08 /* WatchTheme.swift in Sources */,
+				68089F36D0A17A59B21D0C92 /* WidgetTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48EE9168E327B290A79880F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63EFCE40E3253FBCC6127AD4 /* AdaptiveStatesMatrixUITests.swift in Sources */,
+				1EABDF445B871336A1BD12EC /* DeepLinkPrivacyUITests.swift in Sources */,
+				59324CB58B4B03ED9E00C8A1 /* FirstRunUITests.swift in Sources */,
+				10ECA28A47B464B7A7D1C1FA /* GauravaUITests.swift in Sources */,
+				D6AE3E549CB6721BB46A8DAD /* LiveActivityUITests.swift in Sources */,
+				99160480AB05138C0EF0E04F /* LocalizationSmokeUITests.swift in Sources */,
+				F4EE203DB64A6B09ED16D84F /* LocalizedScreenshotAuditUITests.swift in Sources */,
+				D35019628F1A0339BF2BC7F6 /* MarketingScreenshotTests.swift in Sources */,
+				4228028B2C6A2892711AD492 /* MedicationSelectionUITests.swift in Sources */,
+				78556EA32E38B1538A07C0D0 /* PrivateOwnerSeed.swift in Sources */,
+				0F6C23B5B865B8DBB8E91EB3 /* ProvisionalCardLocalizationUITests.swift in Sources */,
+				C15B7DDA42084FA5A6374082 /* QuickAddBarUITests.swift in Sources */,
+				2C415F276C2435A256421F2E /* SemaglutideVerificationScreenshotTests.swift in Sources */,
+				CB9062ED7A6AACC3170C2D2E /* TabBarMinimizeUITests.swift in Sources */,
+				5D009C54BF65C8C0BE41B567 /* UITestTabHelpers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC28CFC972FF5C80266FF7B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9062B119CA8922B9D0ED23 /* CareActionsWidget.swift in Sources */,
+				916396163EE9FBAEC5701896 /* CareGlanceWidget.swift in Sources */,
+				B8973712AF90F9DEFA05FEDE /* GauravaControls.swift in Sources */,
+				8B048F94E1A17D7ECEC1D77D /* GauravaGlanceSnapshot.swift in Sources */,
+				3E6461A3B2492B4EB1341698 /* GauravaInjectionActivity.swift in Sources */,
+				258F06DFEE0BBD5374CDE122 /* GauravaScreen.swift in Sources */,
+				5F9B8BE46178D8C13E66910A /* GauravaSurface.swift in Sources */,
+				952091F39685AF9AD41F51FD /* GauravaWidgetsBundle.swift in Sources */,
+				E5BE5EA273C9FB99BADAB1F8 /* GlanceDisplayModel.swift in Sources */,
+				8DB9C24C2F9A88B747407753 /* InjectionLiveActivity.swift in Sources */,
+				32BFD1C1A66EF95126AB8359 /* LocalizationPhase0SymbolProof.swift in Sources */,
+				9AE2CAE2ACB3D31756DAB5FF /* OpenScreenIntents.swift in Sources */,
+				345C20BED5BD40E4E740A91D /* SharedThemeTokens.swift in Sources */,
+				0C313E219E6F551669DB9262 /* SurfaceNavigation.swift in Sources */,
+				F39E50FA60820D8575D278C8 /* SurfacePreferences.swift in Sources */,
+				130FDBE8F368E5C43A5AA74D /* SurfaceSnapshotStore.swift in Sources */,
+				76A0890A0291E420E8D58E99 /* WidgetTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC207DC12FFB84EEDBCAE16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50A5B3CA6CF0A83FEBA5E47 /* AppLanguage.swift in Sources */,
+				E2E396E25AAC4574F344C7BF /* AppRootView.swift in Sources */,
+				7FA1FAAB554EDD1843342687 /* AppStyle.swift in Sources */,
+				F2A8EE38BBF4B97BD7244AAF /* ClinicianExport.swift in Sources */,
+				54B7565021DD0F65D2E465CB /* ClinicianExportView.swift in Sources */,
+				2E32B2604B38B7D192527E85 /* DeepLinkRoute.swift in Sources */,
+				4117D2AF385FC8B4E4C5105A /* DosePhaseMath.swift in Sources */,
+				D0BAE1696E7B78F28916039A /* FirstRunSetupView.swift in Sources */,
+				BDA94F172FE964BD65E80447 /* GauravaApp.swift in Sources */,
+				DC4A41E51817C7AF3FF6BA3E /* GauravaAppDelegate.swift in Sources */,
+				F69E493DD3227F93564D4B72 /* GauravaBrandMark.swift in Sources */,
+				0B31A734B8F12307264F4699 /* GauravaGlanceSnapshot.swift in Sources */,
+				1C3B1F5EA381E357A82DF93F /* GauravaInjectionActivity.swift in Sources */,
+				435E594158AFF2A38737748B /* GauravaScreen.swift in Sources */,
+				6CB297BECB38A3EAC148D79D /* GauravaSurface.swift in Sources */,
+				3DFA2EDB74F60E953357A8E0 /* GlanceDisplayModel.swift in Sources */,
+				9162488E87C4FFF754797A6F /* GlanceProjectionBuilder.swift in Sources */,
+				8BD5C91EC0C82278D9DA0A55 /* GlancePublisher.swift in Sources */,
+				E2CBC12C5909B642C0AB30C9 /* GoalWeightRuler.swift in Sources */,
+				A6680326522CF13512723159 /* HealthKitWeightImporter.swift in Sources */,
+				FB3C32E005629E4A9B4F2AE2 /* InjectionActivityController.swift in Sources */,
+				CA87D81E508712523570634C /* InjectionActivityProjection.swift in Sources */,
+				BAA07BEE006C116FF18DD987 /* InjectionActivityPublisher.swift in Sources */,
+				5DFF10986EED51E00B71BCF4 /* InjectionReminderPermission.swift in Sources */,
+				60FF88E8C0D035D283522B81 /* InjectionReminderPlan.swift in Sources */,
+				75C4B56980424559C637CCC1 /* InjectionReminderScheduler.swift in Sources */,
+				34337DD478CF8C552AAD2EA1 /* InjectionSiteRotation.swift in Sources */,
+				790134B9367A4B45D3607DD5 /* JabsView.swift in Sources */,
+				20C83B6CEE4A8D529DBB69E8 /* LocalizationPhase0SymbolProof.swift in Sources */,
+				15F3F450EE18437198D50033 /* LogCapture.swift in Sources */,
+				03836ACFF4532A65019CF571 /* LogView.swift in Sources */,
+				D39818384A4FFBAE8A8D480E /* Medication.swift in Sources */,
+				8429635C6E2B58D0ACDB74BC /* ModelContainerFactory.swift in Sources */,
+				F8A7BA7CD5DAE088487ED3FA /* ModelWriteService.swift in Sources */,
+				1A865B44D1F158D2FE31BC99 /* OneGlassMoodQuestion.swift in Sources */,
+				60119B8DCFFFA9210D67C0D6 /* OpenScreenIntents.swift in Sources */,
+				F1959336318C67F936C85D77 /* OwnerSeedImportLaunchHandler.swift in Sources */,
+				780DBA8FDE17A5124979AD63 /* QuickAddBar.swift in Sources */,
+				C1D4DF727A48FE266E11E3D5 /* RemoteChangeRepublisher.swift in Sources */,
+				694D04256F1353FF6B7FDA64 /* ResultsView.swift in Sources */,
+				88E278415A0AB6157D3EDBED /* SampleData.swift in Sources */,
+				E5BBAE3DD91DDC4F2EAD33EF /* SeedImportPayload.swift in Sources */,
+				26FFCFFDB1A4985F8C9A42CF /* SeedImporter.swift in Sources */,
+				E3028197077DE7D2A42295CE /* SettingsView.swift in Sources */,
+				74A8F01AF276FC24A587279D /* ShareCardConfiguration.swift in Sources */,
+				853D650DB6A2ABD35A71DC77 /* ShareCardPhotoLibrarySaver.swift in Sources */,
+				DD0CE4F47E2DEF33010C9051 /* ShareCardRenderer.swift in Sources */,
+				A5689ED8C88DE705EE8D5E58 /* ShareCardSnapshot.swift in Sources */,
+				AF63F88EF3099953993B0730 /* ShareJourneyCardView.swift in Sources */,
+				2D9326D2749E99DE3EDCDD2D /* ShareJourneyComposerSheet.swift in Sources */,
+				40651B1855B6DE029DFDAAF6 /* ShareWeightTrendChart.swift in Sources */,
+				A22F41E0A5CF87786355E288 /* SharedThemeTokens.swift in Sources */,
+				1B292A6C4957483D5CB1D0EA /* SideEffectBoard.swift in Sources */,
+				43443BE963CF8679E598D34C /* SummaryView.swift in Sources */,
+				13C4D6A8105B7E8ED201E582 /* SurfaceNavigation.swift in Sources */,
+				5A4421EB3272A94152DD8B69 /* SurfacePreferences.swift in Sources */,
+				94ED5C05B24C2FE30B417D02 /* SurfaceSnapshotStore.swift in Sources */,
+				288C3E91A9B451CEF69DC1AD /* TestStateSeedLaunchHandler.swift in Sources */,
+				6F99670BEA0A9EF4A4D904FF /* ThemePalette.swift in Sources */,
+				AC2509D816C73E6D78AE9E53 /* TrackerModels.swift in Sources */,
+				C0055C031336E85AB6744CAC /* TreatmentFormComponents.swift in Sources */,
+				E41B48D74638555AE8781828 /* TreatmentMath.swift in Sources */,
+				7C72278F881DB50E83DCAACA /* TreatmentStatus.swift in Sources */,
+				132AC902A05669D7909AE580 /* WatchConnectivityCoordinator.swift in Sources */,
+				C852BBCE5D8BBAE64F7E0EA7 /* WatchConnectivitySnapshotStore.swift in Sources */,
+				CAB2D87DAD67DD79F9E593F2 /* WatchSnapshotPublisher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFAF37329DC5D86EAA082196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDA0CA1069D27583A12B3B3 /* AdaptiveStatesTests.swift in Sources */,
+				464BC2E7EBA32D1EB72EF5E0 /* AppIntentTests.swift in Sources */,
+				C30FBE60713A43526201F56B /* Build0RefactorTests.swift in Sources */,
+				6910A669905ABE6264475106 /* DeepLinkRouteTests.swift in Sources */,
+				ABA27CD81EE10EF5A75935D7 /* DosePhaseMathTests.swift in Sources */,
+				C74944C8CA982B52EE00E4F7 /* GauravaTests.swift in Sources */,
+				6CEBC46F14978ADA6359791E /* GlanceDisplayModelTests.swift in Sources */,
+				9E39AAB56E402DB698D24CF3 /* GlanceSurfaceTests.swift in Sources */,
+				11EC3F76ED58E01B7F87A2AC /* HealthKitWeightImportTests.swift in Sources */,
+				F7AACE8436F9ACD06397B997 /* InjectionActivityTests.swift in Sources */,
+				2300606F7058DDE63712E8C9 /* InjectionReminderPlanTests.swift in Sources */,
+				6A82A3708ED5FA9CB52F0CB0 /* InjectionReminderSchedulerTests.swift in Sources */,
+				90D4CBE7993AD299889988A1 /* OnboardingDefinitionOfDoneTests.swift in Sources */,
+				DF428713E1AB153591221A86 /* PrivateOwnerSeed.swift in Sources */,
+				F6BBFA2E42913A6893E843FE /* ThemePaletteTests.swift in Sources */,
+				DA8625B26F1CC0F8188A401E /* TreatmentScheduleTests.swift in Sources */,
+				49FBDB4C4EF756324E23979F /* WatchSnapshotTransportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0584EFC489AC05433512CA59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC2DCA6030FD7F6EF2390755 /* Gaurava */;
+			targetProxy = 0023AD166B3B014D2834034F /* PBXContainerItemProxy */;
+		};
+		397EAB4A6016BBD4AC2CD551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAA3299E38BD3F24449C393F /* GauravaWatchWidgets */;
+			targetProxy = A16BCBEC12056568DCBBB991 /* PBXContainerItemProxy */;
+		};
+		A0CA07B673AF182ECF6FA7A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC2DCA6030FD7F6EF2390755 /* Gaurava */;
+			targetProxy = 1A784DBC9DD15E0E56268FBA /* PBXContainerItemProxy */;
+		};
+		BDA95F1CDF004FE0D32C2CCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A59DB920B7A4C7072AF8953 /* GauravaWatch */;
+			targetProxy = 4EAECE768F675691BC0642B2 /* PBXContainerItemProxy */;
+		};
+		F8E4445C10ECA28E67477DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3B7A86C2F9F60F2983AECC7 /* GauravaWidgets */;
+			targetProxy = 4A85B84DB7B7AE999A102B1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		042179A4893ADE7541DC5887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D1E232770F75C4474AB01E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava.surfacesnapshots;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = GAURAVA_SURFACE_SNAPSHOT;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0F150E5D8C833BDC8653770F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GauravaWatch/GauravaWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 59;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GauravaWatch/Info.plist;
+				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava.watchkitapp;
+				PRODUCT_NAME = Gaurava;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		0FD6D9E8F98053E429DC9222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = GauravaWidgets/GauravaWidgets.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 59;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GauravaWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava.GauravaWidgets;
+				PRODUCT_NAME = GauravaWidgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		100215D56E1BFCD3414AD728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava.uitests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gaurava;
+			};
+			name = Debug;
+		};
+		1509DFA1B44E357DEF3A58DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = GauravaWatchWidgets/GauravaWatchWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 59;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GauravaWatchWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava.watchkitapp.GauravaWatchWidgets;
+				PRODUCT_NAME = GauravaWatchWidgets;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		20B2C3E542DC4EA42A9208CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Gaurava/Gaurava.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 59;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Gaurava/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava;
+				PRODUCT_NAME = Gaurava;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C559A95047A6C32EAA10CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = GauravaWidgets/GauravaWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 59;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GauravaWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava.GauravaWidgets;
+				PRODUCT_NAME = GauravaWidgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5001FEFD158D624E4DD4D261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava.tests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gaurava.app/Gaurava";
+			};
+			name = Debug;
+		};
+		5D27A0684771588B132A65FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Gaurava/Info.OnboardingSandbox.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava.onboarding;
+				PRODUCT_NAME = GauravaOnboarding;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) GAURAVA_ONBOARDING_SANDBOX";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		886870391E38632B86D5409E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava.tests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gaurava.app/Gaurava";
+			};
+			name = Release;
+		};
+		8BA67A79E3619D07E491B2F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Gaurava/Gaurava.Release.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 59;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Gaurava/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava;
+				PRODUCT_NAME = Gaurava;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CC6264546EBC4190EE3C07C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GauravaWatch/GauravaWatch.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 59;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GauravaWatch/Info.plist;
+				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava.watchkitapp;
+				PRODUCT_NAME = Gaurava;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		9A2BD1564EEF6AB7523C0F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Gaurava/Info.OnboardingSandbox.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava.onboarding;
+				PRODUCT_NAME = GauravaOnboarding;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) GAURAVA_ONBOARDING_SANDBOX";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E1D7A3154DDDB0B23553ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB7C83534D6E32AB32393B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = GauravaWatchWidgets/GauravaWatchWidgets.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 59;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GauravaWatchWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava.watchkitapp.GauravaWatchWidgets;
+				PRODUCT_NAME = GauravaWatchWidgets;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		E1C81B767A9F6C18994D3D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava.surfacesnapshots;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = GAURAVA_SURFACE_SNAPSHOT;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F99B658261BE284D0CEC730C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nags.gaurava.uitests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gaurava;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0064321DE09A302E3151060F /* Build configuration list for PBXNativeTarget "GauravaSurfaceSnapshots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C81B767A9F6C18994D3D8C /* Debug */,
+				0D1E232770F75C4474AB01E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1D810886B48A8DBD663656A4 /* Build configuration list for PBXNativeTarget "GauravaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5001FEFD158D624E4DD4D261 /* Debug */,
+				886870391E38632B86D5409E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		24C1D578164D79E6C602C7F7 /* Build configuration list for PBXNativeTarget "GauravaWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C559A95047A6C32EAA10CE9 /* Debug */,
+				0FD6D9E8F98053E429DC9222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		283BCC127BFE75C9B4840314 /* Build configuration list for PBXNativeTarget "GauravaWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F150E5D8C833BDC8653770F /* Debug */,
+				8CC6264546EBC4190EE3C07C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2B7D419522A5EE6B3E46E16C /* Build configuration list for PBXProject "Gaurava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042179A4893ADE7541DC5887 /* Debug */,
+				9E1D7A3154DDDB0B23553ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4446010061E21165D5FCD5C4 /* Build configuration list for PBXNativeTarget "GauravaWatchWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1509DFA1B44E357DEF3A58DF /* Debug */,
+				AB7C83534D6E32AB32393B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5F70FBC52C1051FB54CEB42E /* Build configuration list for PBXNativeTarget "GauravaOnboarding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A2BD1564EEF6AB7523C0F8A /* Debug */,
+				5D27A0684771588B132A65FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		62845A49E6E881FB9A3EC03C /* Build configuration list for PBXNativeTarget "Gaurava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B2C3E542DC4EA42A9208CF /* Debug */,
+				8BA67A79E3619D07E491B2F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D6F0E247829556C7941D1201 /* Build configuration list for PBXNativeTarget "GauravaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100215D56E1BFCD3414AD728 /* Debug */,
+				F99B658261BE284D0CEC730C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED5D267BE3E784044E4A866E /* Project object */;
+}

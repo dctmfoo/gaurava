@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "producerBuild": "42",
+  "generatedAt": "2026-06-01T00:00:00Z",
+  "expiresAt": "2026-06-01T06:00:00Z",
+  "sourceWatermark": "w",
+  "privacyMode": "minimal",
+  "renderPolicyVersion": 1,
+  "status": {
+    "phrase": "Next dose in 2 days"
+  }
+}

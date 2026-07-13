@@ -1,0 +1,30 @@
+name: Investigation (log now, dig later)
+description: A suspected bug or question to record now and root-cause later. No fix expected yet.
+labels: ["investigation", "status:needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this when you've **noticed** something but are deliberately deferring the investigation. Capture enough to pick it up cold.
+  - type: textarea
+    id: observation
+    attributes:
+      label: What was observed
+      description: The symptom, and where/when you saw it. It's fine if the cause is unknown.
+    validations:
+      required: true
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Early hypothesis (optional)
+      description: Any hunch on the cause or the area to start in. Leave blank if none.
+    validations:
+      required: false
+  - type: textarea
+    id: docs
+    attributes:
+      label: Related docs / code in this repo
+      description: Link the relevant doc under docs/ or source file (path:line) so the investigation starts grounded.
+      placeholder: "docs/…  ·  Gaurava/…swift:NN"
+    validations:
+      required: false

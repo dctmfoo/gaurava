@@ -1,0 +1,89 @@
+{
+  "fill": {
+    "linear-gradient": [
+      "extended-srgb:0.74902,0.87843,0.79608,1.00000",
+      "extended-srgb:0.98431,0.96471,0.91765,1.00000"
+    ],
+    "orientation": {
+      "start": {
+        "x": 0.1,
+        "y": 0.05
+      },
+      "stop": {
+        "x": 0.9,
+        "y": 0.95
+      }
+    }
+  },
+  "fill-specializations": [
+    {
+      "appearance": "dark",
+      "value": {
+        "linear-gradient": [
+          "extended-srgb:0.06667,0.06667,0.05882,1.00000",
+          "extended-srgb:0.10196,0.12549,0.10980,1.00000"
+        ],
+        "orientation": {
+          "start": {
+            "x": 0.1,
+            "y": 0.05
+          },
+          "stop": {
+            "x": 0.9,
+            "y": 0.95
+          }
+        }
+      }
+    },
+    {
+      "appearance": "tinted",
+      "value": "automatic"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Teal G",
+      "layers": [
+        {
+          "image-name": "teal-g.png",
+          "name": "Teal G"
+        }
+      ],
+      "lighting": "individual",
+      "specular": true,
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.35
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.1
+      }
+    },
+    {
+      "name": "Terracotta accent",
+      "layers": [
+        {
+          "image-name": "terracotta.png",
+          "name": "Terracotta accent"
+        }
+      ],
+      "lighting": "individual",
+      "specular": true,
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.3
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.1
+      }
+    }
+  ],
+  "supported-platforms": {
+    "squares": "shared",
+    "circles": [
+      "watchOS"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+name: Bug report
+description: Something works incorrectly in the app, widgets, watch, or sync.
+labels: ["bug", "status:needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep it tight. **Link the relevant in-repo doc(s)** instead of pasting their content — see the "Related docs" field.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What's wrong
+      description: One or two sentences. What did you expect vs. what happens?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. …
+        2. …
+        3. …
+    validations:
+      required: false
+  - type: input
+    id: surface
+    attributes:
+      label: Surface / build
+      description: Where it shows up (app screen, widget family, watch, Live Activity) and which build (App Store / TestFlight / dev).
+    validations:
+      required: false
+  - type: textarea
+    id: docs
+    attributes:
+      label: Related docs in this repo
+      description: Link the governing plan/spec/design under docs/ or a source file (path:line). Reference, don't duplicate.
+      placeholder: "docs/…  ·  Gaurava/…swift:NN"
+    validations:
+      required: false

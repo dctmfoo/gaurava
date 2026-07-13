@@ -1,0 +1,33 @@
+name: Design change (UI/UX)
+description: A visual or interaction redesign. Onboarding changes are gated — cite a trigger.
+labels: ["design", "status:needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **First-run onboarding is change-controlled.** Per "Onboarding Change Control" in CLAUDE.md/AGENTS.md and
+        `docs/onboarding-definition-of-done.md`, an onboarding change needs a cited trigger (real-user friction,
+        a criterion regression, a new product requirement, a platform/OS change, or an owner-recorded exception).
+        An aesthetic preference is **not** a trigger.
+  - type: textarea
+    id: change
+    attributes:
+      label: What should change
+      description: The surface and the intended new state. Link mockups under docs/ rather than describing pixels here.
+    validations:
+      required: true
+  - type: textarea
+    id: trigger
+    attributes:
+      label: Change-control trigger (required for onboarding)
+      description: Which trigger justifies reopening this surface? Quote it. For non-onboarding surfaces, write "n/a — not gated".
+    validations:
+      required: true
+  - type: textarea
+    id: docs
+    attributes:
+      label: Related docs in this repo
+      description: Link the governing brief/mockups/plan under docs/ (e.g. a redesign brief, mockup set, or the DoD).
+      placeholder: "docs/…"
+    validations:
+      required: true

@@ -1,0 +1,2762 @@
+{
+  "sourceLanguage": "en",
+  "version": "1.0",
+  "strings": {
+    "%lld": {
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld"
+          }
+        }
+      }
+    },
+    "appIntent.logSideEffect.description": {
+      "comment": "App Intent description for opening side-effect capture.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Gaurava to note a side effect for today."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "आज का साइड इफेक्ट नोट करने के लिए Gaurava खोलें."
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "இன்றைய பக்க விளைவை குறிக்க Gaurava-வைத் திறக்கவும்."
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ఈరోజు దుష్ప్రభావాన్ని నమోదు చేయడానికి Gaurava తెరవండి."
+          }
+        }
+      }
+    },
+    "appIntent.logSideEffect.title": {
+      "comment": "App Intent title for opening side-effect capture.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Log a Side Effect"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "साइड इफेक्ट दर्ज करें"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "பக்க விளைவைப் பதிவு செய்யவும்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "దుష్ప్రభావాన్ని నమోదు చేయండి"
+          }
+        }
+      }
+    },
+    "appIntent.openJabs.description": {
+      "comment": "App Intent description for opening the injections screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Gaurava to your injections."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "अपने इंजेक्शन देखने के लिए Gaurava खोलें."
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "உங்கள் ஊசி பதிவுகளைப் பார்க்க Gaurava-வைத் திறக்கவும்."
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "మీ ఇంజెక్షన్లను చూడడానికి Gaurava తెరవండి."
+          }
+        }
+      }
+    },
+    "appIntent.openJabs.title": {
+      "comment": "App Intent title for opening the injections screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Jabs"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "इंजेक्शन खोलें"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ஊசிகளைத் திறக்கவும்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ఇంజెక్షన్లను తెరవండి"
+          }
+        }
+      }
+    },
+    "appIntent.openLog.description": {
+      "comment": "App Intent description for opening the daily log.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Gaurava to the daily log."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "दैनिक लॉग देखने के लिए Gaurava खोलें."
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "தினசரி பதிவைப் பார்க்க Gaurava-வைத் திறக்கவும்."
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "రోజువారీ లాగ్‌ను చూడడానికి Gaurava తెరవండి."
+          }
+        }
+      }
+    },
+    "appIntent.openLog.title": {
+      "comment": "App Intent title for opening the daily log.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Log"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "लॉग खोलें"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "பதிவேட்டைத் திறக்கவும்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "లాగ్‌ను తెరవండి"
+          }
+        }
+      }
+    },
+    "appIntent.openWeight.description": {
+      "comment": "App Intent description for opening the weight summary.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Gaurava to your weight summary."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "अपना वजन सारांश देखने के लिए Gaurava खोलें."
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "உங்கள் எடை சுருக்கத்தைப் பார்க்க Gaurava-வைத் திறக்கவும்."
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "మీ బరువు సారాంశాన్ని చూడడానికి Gaurava తెరవండి."
+          }
+        }
+      }
+    },
+    "appIntent.openWeight.title": {
+      "comment": "App Intent title for opening the weight summary.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Weight"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "वजन खोलें"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "எடையைத் திறக்கவும்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "బరువును తెరవండి"
+          }
+        }
+      }
+    },
+    "Care Actions": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "देखभाल क्रियाएं"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "பராமரிப்புச் செயல்கள்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "సంరక్షణ చర్యలు"
+          }
+        }
+      }
+    },
+    "Care Glance": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "देखभाल झलक"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "பராமரிப்பு ஒரு பார்வை"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "సంరక్షణ చూపు"
+          }
+        }
+      }
+    },
+    "control.logSideEffect.description": {
+      "comment": "Control Center description for opening side-effect capture.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Gaurava to note a side effect for today."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "आज का साइड इफेक्ट नोट करने के लिए Gaurava खोलें."
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "இன்றைய பக்க விளைவை குறிக்க Gaurava-வைத் திறக்கவும்."
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ఈరోజు దుష్ప్రభావాన్ని నమోదు చేయడానికి Gaurava తెరవండి."
+          }
+        }
+      }
+    },
+    "control.logSideEffect.displayName": {
+      "comment": "Control Center display name for opening side-effect capture.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Log Side Effect"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "लॉग साइड इफेक्ट"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "பதிவு பக்க விளைவு"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "లాగ్ సైడ్ ఎఫెక్ట్"
+          }
+        }
+      }
+    },
+    "control.logSideEffect.label": {
+      "comment": "Control Center button label for opening side-effect capture.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Log Side Effect"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "लॉग साइड इफेक्ट"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "பதிவு பக்க விளைவு"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "లాగ్ సైడ్ ఎఫెక్ట్"
+          }
+        }
+      }
+    },
+    "control.openJabs.description": {
+      "comment": "Control Center description for opening injections.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Gaurava to your injections."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "अपने इंजेक्शन देखने के लिए Gaurava खोलें."
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "உங்கள் ஊசி பதிவுகளைப் பார்க்க Gaurava-வைத் திறக்கவும்."
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "మీ ఇంజెక్షన్లను చూడడానికి Gaurava తెరవండి."
+          }
+        }
+      }
+    },
+    "control.openJabs.displayName": {
+      "comment": "Control Center display name for opening injections.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava Jabs"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava जैब्स"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava ஜப்ஸ்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava జాబ్స్"
+          }
+        }
+      }
+    },
+    "control.openJabs.label": {
+      "comment": "Control Center button label for opening injections.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava Jabs"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava जैब्स"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava ஜப்ஸ்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava జాబ్స్"
+          }
+        }
+      }
+    },
+    "control.openLog.description": {
+      "comment": "Control Center description for opening the daily log.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Gaurava to the daily log."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "दैनिक लॉग देखने के लिए Gaurava खोलें."
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "தினசரி பதிவைப் பார்க்க Gaurava-வைத் திறக்கவும்."
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "రోజువారీ లాగ్‌ను చూడడానికి Gaurava తెరవండి."
+          }
+        }
+      }
+    },
+    "control.openLog.displayName": {
+      "comment": "Control Center display name for opening the daily log.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava Log"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava लॉग"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava பதிவு"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava లాగ్"
+          }
+        }
+      }
+    },
+    "control.openLog.label": {
+      "comment": "Control Center button label for opening the daily log.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava Log"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava लॉग"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava பதிவு"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava లాగ్"
+          }
+        }
+      }
+    },
+    "control.openWeight.description": {
+      "comment": "Control Center description for opening weight.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Gaurava to your weight summary."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "अपना वजन सारांश देखने के लिए Gaurava खोलें."
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "உங்கள் எடை சுருக்கத்தைப் பார்க்க Gaurava-வைத் திறக்கவும்."
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "మీ బరువు సారాంశాన్ని చూడడానికి Gaurava తెరవండి."
+          }
+        }
+      }
+    },
+    "control.openWeight.displayName": {
+      "comment": "Control Center display name for opening weight.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava Weight"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava वजन"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava எடை"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava బరువు"
+          }
+        }
+      }
+    },
+    "control.openWeight.label": {
+      "comment": "Control Center button label for opening weight.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava Weight"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava वजन"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava எடை"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava బరువు"
+          }
+        }
+      }
+    },
+    "Done": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "हो गया"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "முடிந்தது"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "పూర్తయింది"
+          }
+        }
+      }
+    },
+    "Due": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "देय"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "செலுத்த வேண்டியது"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "తీసుకోవలసినది"
+          }
+        }
+      }
+    },
+    "Gaurava": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava"
+          }
+        }
+      }
+    },
+    "Gaurava Jabs": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava जैब्स"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava ஜப்ஸ்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava జాబ్స్"
+          }
+        }
+      }
+    },
+    "Gaurava Log": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava लॉग"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava பதிவு"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava లాగ్"
+          }
+        }
+      }
+    },
+    "Gaurava Weight": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava वजन"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava எடை"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava బరువు"
+          }
+        }
+      }
+    },
+    "glance.dayCaption.daysToNextDose": {
+      "comment": "Compact day caption showing days until the next dose.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld day to next dose"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld days to next dose"
+                }
+              }
+            }
+          }
+        },
+        "hi": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "अगली खुराक में %lld दिन"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "अगली खुराक में %lld दिन"
+                }
+              }
+            }
+          }
+        },
+        "ta": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "அடுத்த அளவுக்கு %lld நாள்"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "அடுத்த அளவுக்கு %lld நாட்கள்"
+                }
+              }
+            }
+          }
+        },
+        "te": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "తదుపరి మోతాదుకు %lld రోజు"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "తదుపరి మోతాదుకు %lld రోజులు"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "glance.dayCaption.daysToNextDoseShort": {
+      "comment": "Caption under a hero day NUMBER (>= 2); the number itself is the hero, so this caption carries no count.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "days to next dose"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "दिन बाद अगली खुराक"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "நாட்களில் அடுத்த அளவு"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "రోజుల్లో తదుపరి మోతాదు"
+          }
+        }
+      }
+    },
+    "glance.dayCaption.doseDue": {
+      "comment": "Compact day caption when the next dose is due now or overdue.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "dose due"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "खुराक देय"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "அளவு நிலுவை"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "మోతాదు సమయం"
+          }
+        }
+      }
+    },
+    "glance.dayCaption.nextDose": {
+      "comment": "Caption under the 'Tomorrow' hero word.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "next dose"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "अगली खुराक"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "அடுத்த அளவு"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "తదుపరి మోతాదు"
+          }
+        }
+      }
+    },
+    "glance.hero.today": {
+      "comment": "Hero day word when the dose is due today (replaces a bare 0/1 number).",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "आज"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "இன்று"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "నేడు"
+          }
+        }
+      }
+    },
+    "glance.hero.tomorrow": {
+      "comment": "Hero day word when the next dose is in 1 day.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tomorrow"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "कल"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "நாளை"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "రేపు"
+          }
+        }
+      }
+    },
+    "glance.status.doseDue": {
+      "comment": "Semantic shared-surface status when the next injection is due now or overdue.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dose due"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "खुराक देय है"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "அளவு நிலுவையில் உள்ளது"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "మోతాదు సమయం వచ్చింది"
+          }
+        }
+      }
+    },
+    "glance.status.gaurava": {
+      "comment": "Fallback shared-surface status used when no semantic status is available.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava"
+          }
+        }
+      }
+    },
+    "glance.status.nextDoseInDays": {
+      "comment": "Semantic shared-surface status with days until the next injection.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Next dose in %lld day"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Next dose in %lld days"
+                }
+              }
+            }
+          }
+        },
+        "hi": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "अगली खुराक %lld दिन में"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "अगली खुराक %lld दिनों में"
+                }
+              }
+            }
+          }
+        },
+        "ta": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld நாளில் அடுத்த அளவு"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld நாட்களில் அடுத்த அளவு"
+                }
+              }
+            }
+          }
+        },
+        "te": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld రోజులో తదుపరి మోతాదు"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld రోజులలో తదుపరి మోతాదు"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "glance.status.nextDoseTomorrow": {
+      "comment": "Semantic shared-surface status when the next injection is in exactly 1 day.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next dose tomorrow"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "अगली खुराक कल है"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "அடுத்த அளவு நாளை"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "తదుపరి మోతాదు రేపు"
+          }
+        }
+      }
+    },
+    "glance.status.noDataYet": {
+      "comment": "Semantic shared-surface status for redacted or unseeded glance data.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No data yet"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "अभी तक कोई डेटा नहीं"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "இன்னும் தரவு இல்லை"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ఇంకా డేటా లేదు"
+          }
+        }
+      }
+    },
+    "glance.status.noDoseScheduled": {
+      "comment": "Semantic shared-surface status when no next injection exists.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No dose scheduled"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "कोई खुराक निर्धारित नहीं है"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "எந்த அளவும் திட்டமிடப்படவில்லை"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ఏ మోతాదు షెడ్యూల్ చేయలేదు"
+          }
+        }
+      }
+    },
+    "glance.status.openGaurava": {
+      "comment": "Placeholder call to action for widgets and watch surfaces.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Gaurava"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava खोलें"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava-ஐத் திறக்கவும்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gauravaను తెరవండి"
+          }
+        }
+      }
+    },
+    "glance.status.openToRefresh": {
+      "comment": "Representative shared-surface status phrase used by widget rendering.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open to refresh"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "रीफ्रेश करने के लिए खोलें"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "புதுப்பிக்க திறக்கவும்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "రీఫ్రెష్ చేయడానికి తెరవండి"
+          }
+        }
+      }
+    },
+    "Injection day": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "इंजेक्शन का दिन"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ஊசி செலுத்தும் நாள்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ఇంజెక్షన్ రోజు"
+          }
+        }
+      }
+    },
+    "injectionSite.abdomenLeft": {
+      "comment": "Localized display label for the left abdomen injection site.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abdomen - Left"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "पेट - बायां"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "அடிவயிறு - இடது"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "పొత్తికడుపు - ఎడమ"
+          }
+        }
+      }
+    },
+    "injectionSite.abdomenRight": {
+      "comment": "Localized display label for the right abdomen injection site.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abdomen - Right"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "पेट - दायां"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "அடிவயிறு - வலது"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "పొత్తికడుపు - కుడి"
+          }
+        }
+      }
+    },
+    "injectionSite.thighLeft": {
+      "comment": "Localized display label for the left thigh injection site.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thigh - Left"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "जांघ - बाईं"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "தொடை - இடது"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "తొడ - ఎడమ"
+          }
+        }
+      }
+    },
+    "injectionSite.thighRight": {
+      "comment": "Localized display label for the right thigh injection site.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thigh - Right"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "जांघ - दाईं"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "தொடை - வலது"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "తొడ - కుడి"
+          }
+        }
+      }
+    },
+    "injectionSite.upperArmLeft": {
+      "comment": "Localized display label for the left upper arm injection site.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Upper Arm - Left"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ऊपरी बांह - बाईं"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "மேல் கை - இடது"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "పై చేయి - ఎడమ"
+          }
+        }
+      }
+    },
+    "injectionSite.upperArmRight": {
+      "comment": "Localized display label for the right upper arm injection site.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Upper Arm - Right"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ऊपरी बांह - दाईं"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "மேல் கை - வலது"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "పై చేయి - కుడి"
+          }
+        }
+      }
+    },
+    "liveActivity.doseMg": {
+      "comment": "Live Activity dose text; placeholder is a localized number.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ mg"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ mg"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ mg"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ mg"
+          }
+        }
+      }
+    },
+    "liveActivity.injectionDay.title": {
+      "comment": "Live Activity title for the injection-day surface.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Injection day"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "इंजेक्शन का दिन"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ஊசி செலுத்தும் நாள்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ఇంజెక్షన్ రోజు"
+          }
+        }
+      }
+    },
+    "liveActivity.label.done": {
+      "comment": "Short Dynamic Island label when the injection activity is complete.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "हो गया"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "முடிந்தது"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "పూర్తయింది"
+          }
+        }
+      }
+    },
+    "liveActivity.label.due": {
+      "comment": "Short Dynamic Island label when the injection activity is due.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Due"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "देय"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "செலுத்த வேண்டியது"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "తీసుకోవలసినది"
+          }
+        }
+      }
+    },
+    "liveActivity.label.injectionDay": {
+      "comment": "Lock Screen label for an active injection day.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Injection day"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "इंजेक्शन का दिन"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ஊசி செலுத்தும் நாள்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ఇంజెక్షన్ రోజు"
+          }
+        }
+      }
+    },
+    "liveActivity.label.logged": {
+      "comment": "Lock Screen label when the injection activity is complete.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Logged"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "दर्ज किया गया"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "பதிவு செய்யப்பட்டது"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "నమోదు చేయబడింది"
+          }
+        }
+      }
+    },
+    "liveActivity.markDone": {
+      "comment": "Live Activity link title for opening the in-app jab confirmation.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mark done"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "पूरा हुआ चिह्नित करें"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "முடித்ததாகக் குறிக்கவும்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "పూర్తయినట్లు గుర్తించు"
+          }
+        }
+      }
+    },
+    "liveActivity.openDetails": {
+      "comment": "Fallback detail text when a Live Activity hides dose and site details.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Gaurava for details"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "विवरण के लिए Gaurava खोलें"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "விவரங்களுக்கு Gaurava-ஐத் திறக்கவும்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "వివరాల కోసం Gauravaను తెరవండి"
+          }
+        }
+      }
+    },
+    "liveActivity.status.dueToday": {
+      "comment": "Live Activity status when an injection is due today.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dose due today"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "आज खुराक देय है"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "இன்று அளவு நிலுவையில் உள்ளது"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ఈరోజు మోతాదు సమయం"
+          }
+        }
+      }
+    },
+    "liveActivity.status.logged": {
+      "comment": "Live Activity status after the injection has been logged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dose logged"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "खुराक दर्ज की गई"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "அளவு பதிவு செய்யப்பட்டது"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "మోతాదు నమోదు చేయబడింది"
+          }
+        }
+      }
+    },
+    "liveActivity.status.overdue": {
+      "comment": "Live Activity status when an injection is overdue.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dose overdue"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "खुराक देर से है"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "அளவு காலதாமதமாகியுள்ளது"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "మోతాదు ఆలస్యమైంది"
+          }
+        }
+      }
+    },
+    "localizationPhase0SymbolProof": {
+      "comment": "Phase 0 compile proof for generated String Catalog symbols in the iOS widget bundle.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Localization symbol proof"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "स्थानीयकरण प्रतीक प्रमाण"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "உள்ளூர்மயமாக்கல் சின்னம் ஆதாரம்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "స్థానికీకరణ చిహ్నం రుజువు"
+          }
+        }
+      }
+    },
+    "Log a Side Effect": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "साइड इफेक्ट दर्ज करें"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "பக்க விளைவைப் பதிவு செய்யவும்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "దుష్ప్రభావాన్ని నమోదు చేయండి"
+          }
+        }
+      }
+    },
+    "Log Side Effect": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "लॉग साइड इफेक्ट"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "பதிவு பக்க விளைவு"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "లాగ్ సైడ్ ఎఫెక్ట్"
+          }
+        }
+      }
+    },
+    "Logged": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "दर्ज किया गया"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "பதிவு செய்யப்பட்டது"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "నమోదు చేయబడింది"
+          }
+        }
+      }
+    },
+    "Mark done": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "पूरा हुआ चिह्नित करें"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "முடித்ததாகக் குறிக்கவும்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "పూర్తయినట్లు గుర్తించు"
+          }
+        }
+      }
+    },
+    "Open Gaurava for details": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "विवरण के लिए Gaurava खोलें"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "விவரங்களுக்கு Gaurava-ஐத் திறக்கவும்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "వివరాల కోసం Gauravaను తెరవండి"
+          }
+        }
+      }
+    },
+    "Open Gaurava to note a side effect for today.": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "आज का साइड इफेक्ट नोट करने के लिए Gaurava खोलें."
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "இன்றைய பக்க விளைவை குறிக்க Gaurava-வைத் திறக்கவும்."
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ఈరోజు దుష్ప్రభావాన్ని నమోదు చేయడానికి Gaurava తెరవండి."
+          }
+        }
+      }
+    },
+    "Open Gaurava to the daily log.": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "दैनिक लॉग देखने के लिए Gaurava खोलें."
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "தினசரி பதிவைப் பார்க்க Gaurava-வைத் திறக்கவும்."
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "రోజువారీ లాగ్‌ను చూడడానికి Gaurava తెరవండి."
+          }
+        }
+      }
+    },
+    "Open Gaurava to your injections.": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "अपने इंजेक्शन देखने के लिए Gaurava खोलें."
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "உங்கள் ஊசி பதிவுகளைப் பார்க்க Gaurava-வைத் திறக்கவும்."
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "మీ ఇంజెక్షన్లను చూడడానికి Gaurava తెరవండి."
+          }
+        }
+      }
+    },
+    "Open Gaurava to your weight summary.": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "अपना वजन सारांश देखने के लिए Gaurava खोलें."
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "உங்கள் எடை சுருக்கத்தைப் பார்க்க Gaurava-வைத் திறக்கவும்."
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "మీ బరువు సారాంశాన్ని చూడడానికి Gaurava తెరవండి."
+          }
+        }
+      }
+    },
+    "Open Jabs": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "इंजेक्शन खोलें"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ஊசிகளைத் திறக்கவும்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ఇంజెక్షన్లను తెరవండి"
+          }
+        }
+      }
+    },
+    "Open Log": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "लॉग खोलें"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "பதிவேட்டைத் திறக்கவும்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "లాగ్‌ను తెరవండి"
+          }
+        }
+      }
+    },
+    "Open Weight": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "वजन खोलें"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "எடையைத் திறக்கவும்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "బరువును తెరవండి"
+          }
+        }
+      }
+    },
+    "Quick shortcuts to log weight, a jab, or a note.": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "वजन, इंजेक्शन या नोट दर्ज करने के लिए त्वरित शॉर्टकट."
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "எடை, ஊசி செலுத்துதல் அல்லது குறிப்பைப் பதிவு செய்வதற்கான விரைவான குறுக்குவழிகள்."
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "బరువు, ఇంజెక్షన్ లేదా గమనికను నమోదు చేయడానికి శీఘ్ర షార్ట్‌కట్‌లు."
+          }
+        }
+      }
+    },
+    "Weight trend": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "वजन रुझान"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "எடை போக்கு"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "బరువు ధోరణి"
+          }
+        }
+      }
+    },
+    "widget.brand.gaurava": {
+      "comment": "Product wordmark shown in iOS widgets.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava"
+          }
+        }
+      }
+    },
+    "widget.careActions.description": {
+      "comment": "Widget gallery description for the care actions widget.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quick shortcuts to log weight, a jab, or a note."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "वजन, इंजेक्शन या नोट दर्ज करने के लिए त्वरित शॉर्टकट."
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "எடை, ஊசி செலுத்துதல் அல்லது குறிப்பைப் பதிவு செய்வதற்கான விரைவான குறுக்குவழிகள்."
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "బరువు, ఇంజెక్షన్ లేదా గమనికను నమోదు చేయడానికి శీఘ్ర షార్ట్‌కట్‌లు."
+          }
+        }
+      }
+    },
+    "widget.careActions.displayName": {
+      "comment": "Widget gallery display name for the care actions widget.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Care Actions"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "देखभाल क्रियाएं"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "பராமரிப்புச் செயல்கள்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "సంరక్షణ చర్యలు"
+          }
+        }
+      }
+    },
+    "widget.careActions.jab": {
+      "comment": "Care Actions widget shortcut title for opening injection logging.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jab"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "इंजेक्शन"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ஊசி செலுத்துதல்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ఇంజెక్షన్"
+          }
+        }
+      }
+    },
+    "widget.careActions.note": {
+      "comment": "Care Actions widget shortcut title for opening the daily log.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Note"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "टिप्पणी"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "குறிப்பு"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "గమనిక"
+          }
+        }
+      }
+    },
+    "widget.careActions.weight": {
+      "comment": "Care Actions widget shortcut title for opening the weight screen.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weight"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "वज़न"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "எடை"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "బరువు"
+          }
+        }
+      }
+    },
+    "widget.careGlance.description": {
+      "comment": "Widget gallery description for the care glance widget.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your next dose and progress at a glance."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "आपकी अगली खुराक और प्रगति एक नज़र में."
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "உங்கள் அடுத்த அளவு மற்றும் முன்னேற்றம் ஒரு பார்வையில்."
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "మీ తదుపరి మోతాదు మరియు పురోగతి ఒక చూపులో."
+          }
+        }
+      }
+    },
+    "widget.careGlance.displayName": {
+      "comment": "Widget gallery display name for the care glance widget.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Care Glance"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "देखभाल झलक"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "பராமரிப்பு ஒரு பார்வை"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "సంరక్షణ చూపు"
+          }
+        }
+      }
+    },
+    "widget.careGlance.goal": {
+      "comment": "Tiny label on the trend chart's goal-weight gridline.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Goal"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "लक्ष्य"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "இலக்கு"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "లక్ష్యం"
+          }
+        }
+      }
+    },
+    "widget.careGlance.toGoal": {
+      "comment": "Caption under the progress ring explaining what the percentage measures.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "to goal"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "लक्ष्य तक"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "இலக்குக்கு"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "లక్ష్యానికి"
+          }
+        }
+      }
+    },
+    "widget.careGlance.sinceStart": {
+      "comment": "Caption under the widget weight-trend total, e.g. \"−19 kg since you started\". Keep it short.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "since you started"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "शुरुआत से"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "தொடங்கியதிலிருந்து"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "మొదలు నుండి"
+          }
+        }
+      }
+    },
+    "widget.careGlance.weightTrend": {
+      "comment": "Heading for the widget weight trend chart.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weight trend"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "वजन रुझान"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "எடை போக்கு"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "బరువు ధోరణి"
+          }
+        }
+      }
+    },
+    "Your next dose and progress at a glance.": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "आपकी अगली खुराक और प्रगति एक नज़र में."
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "உங்கள் அடுத்த அளவு மற்றும் முன்னேற்றம் ஒரு பார்வையில்."
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "మీ తదుపరి మోతాదు మరియు పురోగతి ఒక చూపులో."
+          }
+        }
+      }
+    },
+    "%@ to goal": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ लक्ष्य तक"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ இலக்கை அடைய"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ లక్ష్యానికి"
+          }
+        }
+      }
+    },
+    "to goal": {
+      "extractionState": "stale",
+      "localizations": {
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "लक्ष्य तक"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "இலக்கை அடைய"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "లక్ష్యానికి"
+          }
+        }
+      }
+    },
+    "watch.progress.toGoal": {
+      "comment": "Short watch app progress-ring caption.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "to goal"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "लक्ष्य तक"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "இலக்கை அடைய"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "లక్ష్యానికి"
+          }
+        }
+      }
+    },
+    "watch.progress.toGoal.accessibility": {
+      "comment": "Watch app accessibility label for progress toward goal; placeholder is a localized percent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ to goal"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ लक्ष्य तक"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ இலக்கை அடைய"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ లక్ష్యానికి"
+          }
+        }
+      }
+    },
+    "watch.wordmark.caption": {
+      "comment": "Representative watch app UI caption.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Treatment at a glance"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "उपचार एक नज़र में"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "சிகிச்சை ஒரு பார்வையில்"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "చికిత్స ఒక చూపులో"
+          }
+        }
+      }
+    },
+    "watch.wordmark.gaurava": {
+      "comment": "Product wordmark shown in the watch app header.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava"
+          }
+        },
+        "te": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gaurava"
+          }
+        }
+      }
+    }
+  }
+}

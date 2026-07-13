@@ -1,0 +1,11 @@
+# Issue template chooser config.
+# Blank issues stay enabled so quick items can be logged fast; prefer a form
+# below when the structure fits.
+blank_issues_enabled: true
+contact_links:
+  - name: Operating contract (CLAUDE.md / AGENTS.md)
+    url: https://github.com/dctmfoo/gaurava/blob/main/CLAUDE.md
+    about: How agents build and test in this repo — read it before filing.
+  - name: Project README
+    url: https://github.com/dctmfoo/gaurava/blob/main/README.md
+    about: Overview, architecture, and build instructions.

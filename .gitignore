@@ -68,3 +68,5 @@ Build/DocIndex/
 # Local-only release material (kept on disk, never version-controlled):
 # App Store Connect operational state driving the maintainer's release process.
 /ASC.md
+/PRD.md
+/PLAN.md

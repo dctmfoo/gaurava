@@ -1,10 +1,10 @@
-# CLAUDE.md — Gaurava operating contract
+# Gaurava — agent operating contract
 
 This file is the operating contract for coding agents (OpenAI Codex, Claude
 Code, or any other) working in this repository. It is deliberately short: build
 and test commands, conventions, and guardrails. Keep it that way.
 
-`AGENTS.md` mirrors this file — edit both together.
+`AGENTS.md` and `CLAUDE.md` are byte-identical mirrors of this contract — edit both together.
 
 ## What this is
 
